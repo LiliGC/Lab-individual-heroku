@@ -1,30 +1,37 @@
 $(document).ready(function() {
     $('#clientes').DataTable({
+
+        responsive: 'True',
         dom: 'Bfrtip',
         buttons: [{
                 extend: 'copyHtml5',
                 text: '<i class="fa fa-files-o fa-2x"></i>',
-                titleAttr: 'Copy'
+                titleAttr: 'Copy',
+                className: 'btn btn-secondary'
             },
             {
                 extend: 'excelHtml5',
                 text: '<i class="fa fa-file-excel-o fa-2x"></i>',
-                titleAttr: 'Excel'
+                titleAttr: 'Excel',
+                className: 'btn btn-success'
             },
             {
                 extend: 'csvHtml5',
                 text: '<i class="fa fa-file-text-o fa-2x"></i>',
-                titleAttr: 'CSV'
+                titleAttr: 'CSV',
+                className: 'btn btn-dark'
             },
             {
                 extend: 'pdfHtml5',
                 text: '<i class="fa fa-file-pdf-o fa-2x"></i>',
-                titleAttr: 'PDF'
+                titleAttr: 'PDF',
+                className: 'btn btn-danger'
             },
             {
                 extend: 'print',
                 text: '<i class="fa fa-print fa-2x" aria-hidden="true"></i>',
-                titleAttr: 'Print'
+                titleAttr: 'Print',
+                className: 'btn btn-info'
             },
 
         ],
