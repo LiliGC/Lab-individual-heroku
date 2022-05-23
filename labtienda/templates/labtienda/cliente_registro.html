@@ -1,0 +1,40 @@
+{% extends "./index.html" %}
+
+{% block title %}<title>Registro de clientes</title>{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+    <div class="row text center">
+        <div class="col-12 col-md-6 offset-md-3 p-3 border" style="background-color: #ebebfa">
+            <h3>Registro de Clientes</h3>
+            <br> 
+            <div class="card-body" style="background-color: #ebebfa">
+                <form method="post"> 
+                    {% csrf_token %} 
+
+                    {{form|crispy}} 
+
+                    <div class="d-flex justify-content-end">
+                        <input class="btn btn-secondary" type="reset" value="Cancelar" />
+                        &nbsp;
+                        <input class="btn btn-primary" type="submit" value="Guardar" />
+                    </div>
+                </form>
+            {% block additionaljs %}
+                {% if messages %}
+                <script>
+                    {% for message in messages %}
+                        {% if message.success %} class="{{ message.success}}"{% endif %}
+                            Swal.fire({
+                                title: 'Felicitaciones',
+                                text: '{{message}} ',
+                                icon: 'success'
+                            });
+                    {% endfor %}
+                </script>   
+                {% endif %} 
+            {% endblock %}    
+            </div>    
+        </div>
+    </div>
+{% endblock %}

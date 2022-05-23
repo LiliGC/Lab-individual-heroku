@@ -1,0 +1,83 @@
+{% extends "./index.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12 p-3 border" style="background-color: #ebebfa">
+
+            <h3>Datos de Profesionales</h3>
+        
+                <div class="table-responsive align-middle"> 
+        
+                    <table id="clientes" class="table table-striped"> 
+        
+                        <thead> 
+        
+                            <tr>  
+        
+                                <th scope="col">Run</th> 
+
+                                <th scope="col">Titulo</th> 
+        
+                                <th scope="col">Nombre</th> 
+        
+                                <th scope="col">Apellido</th> 
+
+                                <th scope="col">Fecha de nacimiento</th> 
+
+                                <th scope="col">Teléfono</th> 
+        
+                                <th scope="col">Correo electrónico</th> 
+
+                                <th scope="col">Dirección</th> 
+
+                                <th scope="col">Fecha de registro</th>
+
+                                <th scope="col">Opciones</th>
+        
+                            </tr> 
+        
+                        </thead> 
+        
+                        <tbody> 
+        
+                            {% for p in professionals %} 
+        
+                            <tr> 
+                                <td>{{ p.ci }}</td> 
+
+                                <td>{{ p.title }}</td> 
+        
+                                <td>{{ p.name }}</td> 
+        
+                                <td>{{ p.last_name }}</td> 
+        
+                                <td>{{ p.birth_date }}</td> 
+        
+                                <td>{{ p.phone }}</td>
+
+                                <td>{{ p.email }}</td> 
+                                
+                                <td>{{ p.address }}</td> 
+
+                                <td>{{ p.registration_date }}</td>    
+                                
+                                <td>
+                                    <a href= "{% url 'profesional_edit'  p.pk %}" class="btn btn-info">Editar</a> 
+                                    <a href= "{% url 'profesional_delete' p.pk %}" class="btn btn-danger">Eliminar</a> </td>
+                            </tr> 
+        
+                            {% endfor %} 
+        
+                        </tbody> 
+        
+                    </table> 
+        
+                    <a href= "{% url 'registro_professional' %}" class="btn btn-info">Agregar profesional</a> 
+                </div> 
+        
+        </div> 
+        
+    </div> 
+        
+{% endblock %} 

@@ -1,0 +1,1216 @@
+[{
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-04-23T23:04:52.693Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Clara Rojas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-04-23T23:06:33.657Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Lissette Guzman",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-04-23T23:07:50.075Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Sebastian Gallardo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-04-23T23:09:30.952Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Patricio Briones",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-04-23T23:11:58.298Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Manuel Figueroa",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-05-02T00:59:27.877Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Professionals",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-05-02T01:00:34.134Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Clients",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-05-02T01:02:02.578Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "Administrador",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-05-02T01:02:41.079Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "RominaG",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-05-02T01:03:06.275Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ClaraC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-05-02T01:03:20.770Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ClaraC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-05-02T01:12:28.252Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "19",
+            "object_repr": "Romina Garrido",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-05-02T01:13:23.728Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "RominaG",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-05-02T01:13:56.351Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Anibal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-05-02T01:16:03.358Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "20",
+            "object_repr": "Clara Camponovo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-05-02T01:22:19.447Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "RodrigoTs",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-05-02T01:24:57.625Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "valentinamz",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 7,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 7,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 7,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 7,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add professional",
+            "content_type": 8,
+            "codename": "add_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change professional",
+            "content_type": 8,
+            "codename": "change_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete professional",
+            "content_type": 8,
+            "codename": "delete_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view professional",
+            "content_type": 8,
+            "codename": "view_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add client",
+            "content_type": 9,
+            "codename": "add_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change client",
+            "content_type": 9,
+            "codename": "change_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete client",
+            "content_type": 9,
+            "codename": "delete_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view client",
+            "content_type": 9,
+            "codename": "view_client"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Professionals",
+            "permissions": [
+                12,
+                17,
+                18,
+                19,
+                20,
+                33,
+                34,
+                35,
+                36,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Clients",
+            "permissions": [
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+            "name": "Administrador",
+            "permissions": [
+                9,
+                10,
+                11,
+                12,
+                5,
+                6,
+                7,
+                8,
+                13,
+                14,
+                15,
+                16,
+                33,
+                34,
+                35,
+                36,
+                29,
+                30,
+                31,
+                32,
+                25,
+                26,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$4w2bUMJAgHwxNEZnGhNSFT$S1GQ38qqzU5+YywEpxkBDpLqyAQzhYtOfSEyrdOfl/M=",
+            "last_login": "2022-05-02T23:36:15.070Z",
+            "is_superuser": true,
+            "username": "LiliGC",
+            "first_name": "",
+            "last_name": "",
+            "email": "liliana.garmendia.c@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-12T23:14:44.127Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$nzksqSOSg2Qe3cbEAEoibk$m77XHf8rfUyxSgaqB68BBx6F3Ky7ZVWit4TlO3r3uGo=",
+            "last_login": "2022-05-02T23:49:20.820Z",
+            "is_superuser": false,
+            "username": "Anibal",
+            "first_name": "",
+            "last_name": "",
+            "email": "anibal@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-26T01:35:13Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": [
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$rRelcBXxOzgIno05YBocUZ$13sfsHQxN29zlNyBO5EDkFcHsr3gbAxECL1/LuKQ220=",
+            "last_login": "2022-05-01T23:51:54Z",
+            "is_superuser": false,
+            "username": "ClaraC",
+            "first_name": "",
+            "last_name": "",
+            "email": "clarac@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-01T05:07:56Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$G0v11YYJvJZFFDeipUJnTS$lRcOeFycit93Gd5VYZ2eo1lzDI8aIBQw+PcYHPUZTWU=",
+            "last_login": "2022-05-01T23:21:58Z",
+            "is_superuser": false,
+            "username": "RominaG",
+            "first_name": "",
+            "last_name": "",
+            "email": "rominag@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-01T23:19:26Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$DOUmzxNnGeSED8LKokZleo$2wdhsFU0BPoi5nCN0vXzOWayrPwWilKNTkIpbdszvoU=",
+            "last_login": "2022-05-02T01:20:54Z",
+            "is_superuser": false,
+            "username": "RodrigoTs",
+            "first_name": "",
+            "last_name": "",
+            "email": "rodrigotesta@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-02T01:20:54Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$ktQQmFyZICu16NV0qXXvzN$VkOOX/CRNi437+734IK+iPNLZCZ7atksXt3JLC58QeE=",
+            "last_login": "2022-05-02T01:23:54Z",
+            "is_superuser": false,
+            "username": "valentinamz",
+            "first_name": "",
+            "last_name": "",
+            "email": "valentinamez@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-02T01:23:53Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "professional"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "client"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "5qief6da09vb5xqyudv13czxl3rg78sh",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1ngynx:4SdfmNa1XbYSA0-LVIQGnnGgHxgCTDxfiojLgnyBvug",
+            "expire_date": "2022-05-04T01:06:49.712Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "go4amw42f5ow4z90teabrpnq39scww9b",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pDCwJS6dO8ZyJQZpGpoUtqV8e7apAvd_vfef6lI21ri1mSJE6uzcur0u42UHlJ3wHeqt1mnua7LNOpd0Qdt-jqzPC-H-3dQqJVvjZ31AgJsHEnveoMSfGeNIAGjN8gu5AA0IA5sMmSbA0HCZAOzR6feH8ZNN1Q:1nlIt4:JKNzXr1NjtlnDvFFfH3_tkMwTlDtmqb2yAv_RzjKvLM",
+            "expire_date": "2022-05-15T23:21:58.972Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "k6c7h85duw9wkiof5gekwtqb9yyqfsap",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nlLB5:hHINyNYSGtg4PLrSzvyTXvwIsHD8fTr2DdHfinNNwxA",
+            "expire_date": "2022-05-16T01:48:43.561Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "zwsbude7wcmucj1zznbt1xmsl607a4m5",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nePjt:slvoXSOgBgadPapsckWe4ll1Z4Sx94iVXzEjYtbbaqI",
+            "expire_date": "2022-04-26T23:16:01.844Z"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 1,
+        "fields": {
+            "name": "Clara",
+            "last_name": "Rojas",
+            "birth_date": "1979-03-10",
+            "phone": 940586123,
+            "email": "clara@gmail.com",
+            "address": "Av. Chacabuco, 402, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 2,
+        "fields": {
+            "name": "Lissette",
+            "last_name": "Guzman",
+            "birth_date": "1986-09-11",
+            "phone": 942577698,
+            "email": "lissetteg@outlook.com",
+            "address": "Av. Miraflores, 1244, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 3,
+        "fields": {
+            "name": "Sebastian",
+            "last_name": "Gallardo",
+            "birth_date": "1985-12-06",
+            "phone": 962587443,
+            "email": "sebagallardo@gmail.com",
+            "address": "Freire, 252, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 4,
+        "fields": {
+            "name": "Patricio",
+            "last_name": "Briones",
+            "birth_date": "1967-05-20",
+            "phone": 995221783,
+            "email": "patriciobr@gmail.com",
+            "address": "Los Guindos, 1254, Calle Larga"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 5,
+        "fields": {
+            "name": "Manuel",
+            "last_name": "Figueroa",
+            "birth_date": "1990-06-20",
+            "phone": 982547361,
+            "email": "manuelfig@gmail.com",
+            "address": "Av. Alvarez, 1154, Viña del Mar"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 6,
+        "fields": {
+            "name": "Isabel",
+            "last_name": "Pereira",
+            "birth_date": "1995-09-12",
+            "phone": 990527456,
+            "email": "isabelper@gmail.com",
+            "address": "Maipú, 1452, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 7,
+        "fields": {
+            "name": "Miguel",
+            "last_name": "Gamboa",
+            "birth_date": "1997-08-11",
+            "phone": 945178236,
+            "email": "miguelgamb@gmail.com",
+            "address": "Las Lilas, 1452, Rinconada"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 8,
+        "fields": {
+            "name": "Simón",
+            "last_name": "Montenegro",
+            "birth_date": "1987-01-12",
+            "phone": 912478235,
+            "email": "simonmon@gmail.com",
+            "address": "Lusitania, 555, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 9,
+        "fields": {
+            "name": "Maria",
+            "last_name": "Cuevas",
+            "birth_date": "1981-09-12",
+            "phone": 982546127,
+            "email": "mariacuevas@gmail.com",
+            "address": "Av. Valparaíso, 1142, Viña del Mar"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 10,
+        "fields": {
+            "name": "Valentina",
+            "last_name": "Meza",
+            "birth_date": "1993-03-10",
+            "phone": 987725639,
+            "email": "valentinamez@gmail.com",
+            "address": "Rodriguez, 520, Llay Llay"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 11,
+        "fields": {
+            "name": "Aníbal",
+            "last_name": "Villegas",
+            "birth_date": "1986-10-03",
+            "phone": 912543960,
+            "email": "anibalvill@gmail.com",
+            "address": "Av. Libertador Bernardo O'higgins, 1420, La Calera"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 12,
+        "fields": {
+            "name": "Lucas",
+            "last_name": "Campos",
+            "birth_date": "1975-10-22",
+            "phone": 988125365,
+            "email": "lucascampos@gmail.com",
+            "address": "Las Heras, 450, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 13,
+        "fields": {
+            "name": "Leonidas",
+            "last_name": "Castro",
+            "birth_date": "1984-05-10",
+            "phone": 945823602,
+            "email": "leonidascas@gmail.com",
+            "address": "Arturo Prat, 125, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 14,
+        "fields": {
+            "name": "Adrian",
+            "last_name": "Gutierrez",
+            "birth_date": "1973-05-13",
+            "phone": 958412369,
+            "email": "adriang@gmail.com",
+            "address": "Freire, 555, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 15,
+        "fields": {
+            "name": "Rodrigo",
+            "last_name": "Saa",
+            "birth_date": "1987-03-20",
+            "phone": 985236124,
+            "email": "rodrigo@gmail.com",
+            "address": "Sarmiento, 222, Santiago"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 16,
+        "fields": {
+            "name": "Aníbal",
+            "last_name": "Campos",
+            "birth_date": "2020-01-01",
+            "phone": 3412412,
+            "email": "albertob@gmail.com",
+            "address": "Sarmiento, 222, Santiago"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 17,
+        "fields": {
+            "name": "Vicente",
+            "last_name": "Celedón",
+            "birth_date": "1995-10-22",
+            "phone": 941258716,
+            "email": "vicentecel@gmail.com",
+            "address": "Av. Brasil, 1142, Valparaiso"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 18,
+        "fields": {
+            "name": "Stephanie",
+            "last_name": "Garrido",
+            "birth_date": "1990-05-09",
+            "phone": 987221639,
+            "email": "stephanieg@gmail.com",
+            "address": "Av. Santa Teresa, 1452, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 19,
+        "fields": {
+            "name": "Romina",
+            "last_name": "Garrido",
+            "birth_date": "1984-08-22",
+            "phone": 995401338,
+            "email": "rominag@gmail.com",
+            "address": "Rafael Grasso, 222, El Horizonte, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 20,
+        "fields": {
+            "name": "Clara",
+            "last_name": "Camponovo",
+            "birth_date": "1974-11-20",
+            "phone": 995023451,
+            "email": "clarac@gmail.com",
+            "address": "Av. Miraflores, 1268, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 1,
+        "fields": {
+            "ci": "13652147-2"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 2,
+        "fields": {
+            "ci": "16554897-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 3,
+        "fields": {
+            "ci": "15114789-3"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 4,
+        "fields": {
+            "ci": "10550631-4"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 5,
+        "fields": {
+            "ci": "17356987-5"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 6,
+        "fields": {
+            "ci": "18202136-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 7,
+        "fields": {
+            "ci": "19442631-0"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 8,
+        "fields": {
+            "ci": "16112341-6"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 9,
+        "fields": {
+            "ci": "14152360-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 10,
+        "fields": {
+            "ci": "18112036-8"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 11,
+        "fields": {
+            "ci": "10542365-8"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 12,
+        "fields": {
+            "ci": "12145630-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 13,
+        "fields": {
+            "ci": "17441258-3"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 14,
+        "fields": {
+            "ci": "12874236-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 15,
+        "fields": {
+            "ci": "16555488-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 16,
+        "fields": {
+            "ci": "3323423427"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 17,
+        "fields": {
+            "ci": "18352111-0"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 18,
+        "fields": {
+            "ci": "17551256-3"
+        }
+    },
+    {
+        "model": "labtienda.professional",
+        "pk": 19,
+        "fields": {
+            "title": "Tecnólogo médico",
+            "ci": "15112452-9",
+            "registration_date": "2022-05-01"
+        }
+    },
+    {
+        "model": "labtienda.professional",
+        "pk": 20,
+        "fields": {
+            "title": "Bioquímico",
+            "ci": "12002654-3",
+            "registration_date": "2022-05-01"
+        }
+    }
+]

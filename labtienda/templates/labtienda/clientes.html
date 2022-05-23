@@ -1,0 +1,78 @@
+{% extends "./index.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12 p-3 border" style="background-color: #ebebfa">
+
+            <h3>Datos de Clientes</h3>
+        
+                <div class="table-responsive align-middle"> 
+        
+                    <table id="clientes" class="table table-striped"> 
+        
+                        <thead> 
+        
+                            <tr> 
+        
+                                <th scope="col">Run</th> 
+        
+                                <th scope="col">Nombre</th> 
+        
+                                <th scope="col">Apellido</th> 
+
+                                <th scope="col">Fecha de nacimiento</th> 
+
+                                <th scope="col">Teléfono</th> 
+        
+                                <th scope="col">Correo electrónico</th> 
+
+                                <th scope="col">Dirección</th> 
+
+                                <th scope="col">Opciones</th>
+        
+                            </tr> 
+        
+                        </thead> 
+        
+                        <tbody> 
+        
+                            {% for cli in clientes %} 
+        
+                            <tr> 
+        
+                                <td>{{ cli.ci }}</td> 
+        
+                                <td>{{ cli.name }}</td> 
+        
+                                <td>{{ cli.last_name }}</td> 
+        
+                                <td>{{ cli.birth_date }}</td> 
+        
+                                <td>{{ cli.phone }}</td>
+
+                                <td>{{ cli.email }}</td> 
+                                
+                                <td>{{ cli.address }}</td> 
+                                
+                                <td>
+                                    <a href= "{% url 'cliente_edit'  cli.pk %}" class="btn btn-info">Editar</a> 
+                                    <a href= "{% url 'cliente_delete' cli.pk %}" class="btn btn-danger">Eliminar</a> </td> 
+        
+        
+                            </tr> 
+        
+                            {% endfor %} 
+        
+                        </tbody> 
+        
+                    </table> 
+        
+                    <a href= "{% url 'cliente_registro' %}" class="btn btn-info">Agregar cliente</a> 
+                </div> 
+        
+        </div> 
+        
+    </div> 
+        
+{% endblock %} 

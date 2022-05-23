@@ -1,0 +1,22 @@
+{% extends "./index.html" %}
+
+{% block title %}<title>Eliminar Clientes</title>{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+    <div class="row text center">
+        <div class="col-12 col-md-6 offset-md-3 p-3 border" style="background-color: #ebebfa">
+            <h3>Eliminar Clientes</h3>
+            <br> 
+            <div class="card-body" style="background-color: #ebebfa">
+                <form method="post"> 
+                    {% csrf_token %} 
+
+                    {{form|crispy}} 
+
+                <input class="btn btn-primary" type="submit" value="Eliminar" /> 
+                </form>
+            </div>    
+        </div>
+    </div>
+{% endblock %}

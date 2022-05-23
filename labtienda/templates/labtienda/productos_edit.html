@@ -1,0 +1,30 @@
+{% extends './index.html' %}
+
+{% block title %}<title>Editar producto</title>{% endblock %}
+
+{% block content%}
+
+{% load crispy_forms_tags %}
+<br>
+<br>
+<div class="col-12 col-md-6 offset-md-3 text-dark">
+    <div class="card">
+        <div class="card-body">
+            <h3>Editar producto</h3>
+            <hr>
+            <form method="post">
+                {% csrf_token %}
+
+                {{form|crispy}}
+                <div class="d-flex justify-content-end">
+                    <input class="btn btn-secondary" type="reset" value="Cancelar" />
+                    &nbsp;
+                    <input class="btn btn-primary" type="submit" value="Editar" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+{% endblock %}

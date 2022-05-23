@@ -1,0 +1,71 @@
+{% extends "./index.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12 p-3 border" style="background-color: #ebebfa">
+
+            <h3>Datos de Productos</h3>
+        
+                <div class="table-responsive align-middle"> 
+        
+                    <table id="clientes" class="table table-striped"> 
+        
+                        <thead> 
+        
+                            <tr>  
+        
+                                <th scope="col">Categoria</th> 
+
+                                <th scope="col">Nombre</th> 
+        
+                                <th scope="col">Slug</th> 
+        
+                                <th scope="col">Marca</th> 
+
+                                <th scope="col">Precio</th> 
+        
+                                <th scope="col">Stock</th> 
+
+                                <th scope="col">Opciones</th>
+        
+                            </tr> 
+        
+                        </thead> 
+        
+                        <tbody> 
+        
+                            {% for p in productos %} 
+        
+                            <tr> 
+                                <td>{{ p.categoria }}</td> 
+
+                                <td>{{ p.nombre }}</td> 
+        
+                                <td>{{ p.slug }}</td> 
+        
+                                <td>{{ p.marca }}</td> 
+        
+                                <td>{{ p.precio}}</td>
+
+                                <td>{{ p.stock }}</td>  
+                                
+                                <td>
+                                    <a href= "{% url 'productos_edit'  p.pk %}" class="btn btn-info">Editar</a> 
+                                    <a href= "{% url 'productos_delete' p.pk %}" class="btn btn-danger">Eliminar</a> </td>
+                            </tr> 
+        
+                            {% endfor %} 
+        
+                        </tbody> 
+        
+                    </table> 
+        
+                    <a href= "{% url 'registro_productos' %}" class="btn btn-info">Agregar producto</a> 
+                </div> 
+        
+        </div> 
+        
+    </div> 
+        
+{% endblock %} 

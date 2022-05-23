@@ -1,0 +1,47 @@
+{% extends './index.html' %}
+
+{% block title %}<title>Lista de comentarios</title>{% endblock %}
+
+
+{% block content%}
+    <div class="row">
+        <div class="col-sm-12 p-3 border" style="background-color: #ebebfa">
+            <div class="bg-light text-dark">
+                    <h2>Datos de comentarios</h2>
+                <div class="table-responsive align-middle">
+                    <table id="clientes" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Correo electrónico</th>
+                                <th scope="col">Tipo de consulta</th>
+                                <th scope="col">Mensaje</th>
+                                <th scope="col">Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for c in comentarios %}
+                            <tr>
+                                <td>{{ c.id }}</td>
+                                <td>{{ c.nombre }}</td>
+                                <td>{{ c.correo_electronico }}</td>
+                                <td>{{ c.tipo_consulta }}</td>
+                                <td>{{ c.mensaje }}</td>
+                                <td>
+                                {% if user.is_authenticated %}
+                                    {% if c.correo_electronico == user.email %} 
+                                        <a href="{% url 'comentario_edit' c.pk %}" class="btn btn-info">Editar</a>
+                                        <a href="{% url 'comentario_delete' c.pk %}" class="btn btn-danger">Eliminar</a></td>
+                                    {% endif %}
+                                {% endif %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+    <br>

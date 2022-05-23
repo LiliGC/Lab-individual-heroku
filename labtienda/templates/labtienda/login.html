@@ -1,0 +1,25 @@
+{% extends "./index.html" %}
+
+{% block title %}<title>Login de usuarios</title>{% endblock %} 
+{% load crispy_forms_tags %} 
+{% load static %} 
+{% block content %}
+
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-3 p-3 border text center" style="background-color: #ebebfa">
+            <img src="{% static './img/logo.png' %}" width="200" height="200">
+            <h3>Inicio de sesión de usuarios</h3>
+            <br> 
+            <div class="card-body" style="background-color: #ebebfa">
+                <form method="post"> 
+                    {% csrf_token %} 
+
+                    {{login_form|crispy}} 
+
+                <input class="btn btn-primary" type="submit" value="Iniciar sesión" /> 
+                </form> 
+                <p class="text-center">No tienes una cuenta, regístrate? <a href="/register_user">Crear una cuenta</a>.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

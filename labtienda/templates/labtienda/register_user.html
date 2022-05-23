@@ -1,0 +1,22 @@
+{% extends "./index.html" %}
+
+{% block title %}<title>Registro de usuarios</title>{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+    <div class="row text center">
+        <div class="col-12 col-md-6 offset-md-3 p-3 border" style="background-color: #ebebfa">
+            <h3>Crear una cuenta</h3>
+            <br> 
+            <div class="card-body" style="background-color: #ebebfa">
+                <form method="post"> 
+                    {% csrf_token %} 
+
+                    {{register_form|crispy}} 
+
+                <input class="btn btn-primary" type="submit" value="Crear cuenta" /> 
+                </form>    
+            </div>    
+        </div>
+    </div>
+{% endblock %}
