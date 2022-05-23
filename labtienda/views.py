@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Client, Professional, Comentario, Producto
+from .models import Client, Professional, Comentario, Producto, Categoria
 from .forms import ClienteForm,ProfessionalForm, ComentarioForm, ProductoForm
 from .forms import NewUserForm
 from django.contrib.auth import login, authenticate, logout
@@ -330,14 +330,13 @@ def productos(request):
 
 @login_required
 def catalogo_productos(request):
-
-    producto=Producto.objects.all()
-
+    producto = Producto.objects.all()
     context = { 
-
-    'productos': producto, 
-
+    'productos': producto,  
     } 
     return render(request,'labtienda/catalogo_productos.html', context)
 
-
+@login_required
+def producto_detalle(request, pk):
+    producto = get_object_or_404(Producto, pk=pk)
+    return render(request, 'labtienda/producto_detalle.html', {'producto': producto})

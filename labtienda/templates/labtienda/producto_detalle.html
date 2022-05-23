@@ -1,22 +1,16 @@
 {% extends "./index.html" %}
 
-{% block title %}
-    {% if category %}{{ category.title }}{% else %}Productos{% endif %}
-{% endblock %}
-
 {% block content %}
     {% load thumbnail %}
     {% load humanize %}
-        <div class="contenedor_producto">
-            {% if producto.imagen %}
-                {% thumbnail producto.imagen '500x250' as imagen %}
+        <div class="container text-center">
+            <br>
+                {% thumbnail producto.imagen '600x300' as imagen %}
                     <img src="{{ imagen.url }}" alt="imagen producto">
-                {% endthumbnail%}
-            {% endif %}
-                <h6 class="text-dark text-start">{{ producto.marca | capfirst }}</h6>
-                <h4><a href="{{ producto.categoria.get_absolute_url }}">{{ p.category }}</a></h4>
-                <h4 class="text-dark text-start">{{ producto.nombre | title }}</h4>
-                <h5 class="text-dark text-start">${{ producto.precio | intcomma }}
-                                                {{ producto.descripcion|linebreaks }}</h5>
+                {% endthumbnail %}
+                    <h6 class="text-dark text-start">{{ producto.marca | capfirst }}</h6>
+                    <h3 class="text-dark text-start">{{ producto.nombre | title }}</h3>
+                    <h5 class="text-dark text-start">${{ producto.precio | intcomma }}</h5>
+                    <h4 class="text-dark text-start">{{ producto.descripcion|linebreaks }}</h4>
         </div>
 {% endblock %}

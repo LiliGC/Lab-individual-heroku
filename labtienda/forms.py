@@ -40,4 +40,4 @@ class ComentarioForm(forms.ModelForm):
 class ProductoForm(forms.ModelForm):
     class Meta:
         model=Producto
-        fields=['categoria', 'nombre', 'marca', 'imagen', 'descripción','precio', 'stock']   
+        fields=['categoria', 'nombre', 'marca', 'imagen', 'descripcion','precio', 'stock']   

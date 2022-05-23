@@ -54,21 +54,21 @@
                     <div class="bg-light shadow-3 p-4" style="background-color:#dee2e6">
                         {% if user.is_authenticated %}
                             <a class="nav-link" href="#">Bienvenido, {{user.username}}</a>
-                            <a class="btn btn-link btn-block border-bottom m-0" href="{% url 'index' %}">Inicio</a>
-                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'catalogo_productos' %}" >Productos</a>
-                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'comentario' %}" >Contáctanos</a>
-                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'miscomentarios' %}" >Mis mensajes</a>
+                            <a class="btn btn-link btn-block border-bottom m-0" href="{% url 'index' %}"> <i class="fa fa-home fa-lg" aria-hidden="true"></i> Inicio</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'catalogo_productos' %}"> Productos</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'comentario' %}"> <i class="fa fa-envelope" aria-hidden="true"></i> Contáctanos</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'miscomentarios' %}"><i class="fa fa-inbox" aria-hidden="true"></i> Mis mensajes</a>
                             {% if user.is_staff %}
-                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'listacomentarios' %}" >Comentarios</a>
+                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'listacomentarios' %}">Comentarios</a>
                                 <a class="nav-link btn btn-link btn-block border-bottom m-0"href="{% url 'clientes' %}">Clientes</a>
-                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'profesional' %}" >Profesionales</a>
-                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'productos' %}" >Lista de productos</a>
+                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'profesional' %}">Profesionales</a>
+                                <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'productos' %}">Lista de productos</a>
                             {% endif %}
-                            <a class="nav-link btn btn-link btn-block border-bottom m-0"href="{% url 'logout' %}">Salir</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0"href="{% url 'logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
                         {% else %}
-                            <a class="nav-link btn btn-link btn-block m-0"href="{% url 'login' %}">Iniciar sesión</a>
+                            <a class="nav-link btn btn-link btn-block m-0"href="{% url 'login' %}"><i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar sesión</a>
                             <a class="nav-link btn btn-link btn-block m-0"href="{% url 'register_user' %}">Crear cuenta</a>
-                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'comentario' %}" >Contáctanos</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'comentario' %}"><i class="fa fa-envelope" aria-hidden="true"></i> Contáctanos</a>
                         {% endif %}
                     </div>
                 </div>   
@@ -167,10 +167,10 @@
             </div>
             <div class="col-sm-12 text-center" style="background-color: #6610f2;">
                 <div class= "mb-1">
-                    <a href="https://es-la.facebook.com/"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-                    <a href="https://cl.linkedin.com/"> <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
-                    <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://es-la.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://cl.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-sm-12">

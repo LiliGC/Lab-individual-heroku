@@ -1,6 +1,7 @@
 from django.db import models
 import datetime
 from django.utils.text import slugify
+from django.urls import reverse
 
 
 
@@ -64,7 +65,7 @@ class Categoria(models.Model):
         if not self.slug:
             self.slug=slugify(self.nombre)
         super(Categoria, self).save(*args, **kwargs)
-
+    
     def __str__(self): 
         return self.nombre
 
@@ -74,7 +75,7 @@ class Producto(models.Model):
     slug=models.SlugField(max_length=50, db_index=True, unique=True)
     marca=models.ForeignKey(Marca, on_delete=models.PROTECT)
     imagen=models.ImageField(upload_to='productos')
-    descripción=models.TextField(blank=True)
+    descripcion=models.TextField(blank=True)
     precio=models.IntegerField()
     stock=models.PositiveIntegerField()
     disponible=models.BooleanField(default=True)
@@ -89,6 +90,6 @@ class Producto(models.Model):
         if not self.slug:
             self.slug=slugify(self.nombre)
         super(Producto, self).save(*args, **kwargs)
-
+    
     def __str__(self): 
         return self.nombre

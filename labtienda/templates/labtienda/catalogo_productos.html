@@ -5,30 +5,28 @@
 {% block content%}
     {% load thumbnail %}
     {% load humanize %}
-    <h2>Productos</h2>
+            <h3>Productos</h3>
+        <div class="productos">
 
-    <div class="productos">
+            {% for p in productos %}
 
-        {% for p in productos %}
+            <div class="producto">
 
-        <div class="producto">
-
-            <div class= "contenedor_producto">
-
-                {% if p.imagen %}
-                    {% thumbnail p.imagen '300x150' as imagen %}
-                        <img src="{{ imagen.url }}" alt="imagen producto">
-                    {% endthumbnail%}
-                {% endif %}
-                <div class="detalle">
-                    <h6 class="text-dark text-start">{{ p.marca | capfirst }}</h6>
-                    <h4 class="text-dark text-start">{{ p.nombre | title }}</h4>
-                    <h5 class="text-dark text-start">${{ p.precio | intcomma }}</h5>
-                    <i class="fa fa-shopping-cart fa-fw fa-lg"></i>
+                <div class= "contenedor_producto">
+                        {% if p.imagen %}
+                            {% thumbnail p.imagen '300x150' as imagen %}
+                                <img src="{{ imagen.url }}" alt="imagen producto">
+                            {% endthumbnail %}
+                        {% endif %}
+                    <div class="detalle">
+                        <h6 class="text-dark text-start">{{ p.marca | capfirst }}</h6>
+                        <a href="{% url 'producto_detalle' p.pk %}"><h4 class="text-dark text-start">{{ p.nombre | title }}</h4></a>
+                        <h5 class="text-dark text-start">${{ p.precio | intcomma }}</h5>
+                        <i class="fa fa-shopping-cart fa-fw fa-lg"></i>
+                    </div>  
                 </div>  
-            </div>  
-        </div>
-        {% endfor %}  
+            </div>
+            {% endfor %}  
     </div>
     <br>
     <br>  
