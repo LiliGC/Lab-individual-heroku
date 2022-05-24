@@ -5,13 +5,11 @@
 {% block content%}
     {% load thumbnail %}
     {% load humanize %}
-            <h3>Productos</h3>
+        <br>
+            <h2>Productos</h2>
         <div class="productos">
-
             {% for p in productos %}
-
             <div class="producto">
-
                 <div class= "contenedor_producto">
                         {% if p.imagen %}
                             {% thumbnail p.imagen '300x150' as imagen %}
@@ -20,14 +18,13 @@
                         {% endif %}
                     <div class="detalle">
                         <h6 class="text-dark text-start">{{ p.marca | capfirst }}</h6>
-                        <a href="{% url 'producto_detalle' p.pk %}"><h4 class="text-dark text-start">{{ p.nombre | title }}</h4></a>
+                        <a href="{% url 'producto_detalle' p.pk %}"><h5 class="text-dark text-start">{{ p.nombre | title }}</h5></a>
                         <h5 class="text-dark text-start">${{ p.precio | intcomma }}</h5>
-                        <i class="fa fa-shopping-cart fa-fw fa-lg"></i>
+                        <a href= "{% url 'productos' %}" class="btn btn-info"><i class="fa fa-shopping-cart fa-fw fa-lg"></i>Comprar</a> 
                     </div>  
                 </div>  
             </div>
             {% endfor %}  
-    </div>
+        </div>
     <br>
-    <br>  
 {% endblock %}

@@ -18,8 +18,8 @@ body {
 }
 
 .producto .contenedor_producto {
-    background-color: white;
-    width: 80%;
+    background-color: rgb(137, 208, 228);
+    width: 100%;
     margin: auto;
 }
 
@@ -28,5 +28,5 @@ body {
 }
 
 .producto .detalle {
-    padding: 5px;
+    padding: 3px;
 }

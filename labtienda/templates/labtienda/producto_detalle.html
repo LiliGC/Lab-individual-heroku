@@ -3,14 +3,22 @@
 {% block content %}
     {% load thumbnail %}
     {% load humanize %}
-        <div class="container text-center">
-            <br>
-                {% thumbnail producto.imagen '600x300' as imagen %}
-                    <img src="{{ imagen.url }}" alt="imagen producto">
-                {% endthumbnail %}
+            <div class="row">
+                    <br>
+                <div class="col-sm-6 p-3 border text-dark text-center " style="background-color: #ebebfa">
+                    <br>
+                    {% thumbnail producto.imagen '600x300' as imagen %}
+                        <img src="{{ imagen.url }}" alt="imagen producto">
+                    {% endthumbnail %}
                     <h6 class="text-dark text-start">{{ producto.marca | capfirst }}</h6>
                     <h3 class="text-dark text-start">{{ producto.nombre | title }}</h3>
                     <h5 class="text-dark text-start">${{ producto.precio | intcomma }}</h5>
-                    <h4 class="text-dark text-start">{{ producto.descripcion|linebreaks }}</h4>
+                </div>
+                <div class="col-sm-6 p-3 border text-start" style="background-color: #ebebfa">
+                    <br>
+                    <br>
+                    <br>
+                    <h4 class="text-dark">{{ producto.descripcion|linebreaks }}</h4>
+                </div>
         </div>
 {% endblock %}
