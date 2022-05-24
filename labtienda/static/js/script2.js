@@ -5,33 +5,33 @@ $(document).ready(function() {
         dom: 'Bfrtip',
         buttons: [{
                 extend: 'copyHtml5',
+                className: 'btn btn-secondary',
                 text: '<i class="fa fa-files-o fa-2x"></i>',
-                titleAttr: 'Copy',
-                className: 'btn btn-secondary'
+                titleAttr: 'Copy'
             },
             {
                 extend: 'excelHtml5',
+                className: 'btn btn-success',
                 text: '<i class="fa fa-file-excel-o fa-2x"></i>',
-                titleAttr: 'Excel',
-                className: 'btn btn-success'
+                titleAttr: 'Excel'
             },
             {
                 extend: 'csvHtml5',
+                className: 'btn btn-dark',
                 text: '<i class="fa fa-file-text-o fa-2x"></i>',
-                titleAttr: 'CSV',
-                className: 'btn btn-dark'
+                titleAttr: 'CSV'
             },
             {
                 extend: 'pdfHtml5',
+                className: 'btn btn-danger',
                 text: '<i class="fa fa-file-pdf-o fa-2x"></i>',
-                titleAttr: 'PDF',
-                className: 'btn btn-danger'
+                titleAttr: 'PDF'
             },
             {
                 extend: 'print',
+                className: 'btn btn-info',
                 text: '<i class="fa fa-print fa-2x" aria-hidden="true"></i>',
-                titleAttr: 'Print',
-                className: 'btn btn-info'
+                titleAttr: 'Print'
             },
 
         ],
