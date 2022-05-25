@@ -1,5 +1,5 @@
 from django import forms
-from .models import Client, Professional, Comentario, Producto
+from .models import Client, Professional, Comentario, Producto, Orden
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
@@ -41,3 +41,14 @@ class ProductoForm(forms.ModelForm):
     class Meta:
         model=Producto
         fields=['categoria', 'nombre', 'marca', 'imagen', 'descripcion','precio', 'stock']   
+
+PRODUCT_QUANTITY_CHOICES = [(i, str(i)) for i in range(1, 26)]
+
+class CarroAddProductForm(forms.Form):
+    cantidad = forms.TypedChoiceField(choices=PRODUCT_QUANTITY_CHOICES, coerce=int)
+    actualizar = forms.BooleanField(required=False, initial=False, widget=forms.HiddenInput)
+
+class OrdenCreateForm(forms.ModelForm):
+    class Meta:
+        model = Orden
+        fields = ['nombre', 'apellido','email','direccion','ciudad']

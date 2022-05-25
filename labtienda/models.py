@@ -4,6 +4,8 @@ from django.utils.text import slugify
 
 
 
+
+
 # Create your models here.
 
 class User(models.Model):
@@ -93,52 +95,33 @@ class Producto(models.Model):
     def __str__(self): 
         return self.nombre
 
-class Carro:
-    def __init__(self, request):
-        self.request = request
-        self.session = request.session 
-        carro=self.session.get("carro")
-        if not carro:
-            carro=self.session["carro"]={}
-        self.carro=carro
+class Orden(models.Model):
+    nombre = models.CharField(max_length=60)
+    apellido = models.CharField(max_length=60)
+    direccion = models.CharField(max_length=150)
+    email = models.EmailField(max_length=150, blank=True)
+    ciudad = models.CharField(max_length=100)
+    creada = models.DateTimeField(auto_now_add=True)
+    actualizada = models.DateTimeField(auto_now=True)
+    pagada = models.BooleanField(default=False)
 
-    def agregar(self, producto):
-        if(str(producto.id) not in self.carro.keys()):
-            self.carro[producto.id]={
-                "producto_id" : producto.id,
-                "nombre" : producto.nombre,
-                "precio" : producto.precio,
-                "cantidad" : 1,
-                "imagen" : producto.imagen.url
-            }
-        else:
-            for key, value in self.carro.items():
-                if key==str(producto.id):
-                    value["cantidad"]=value["cantidad"]+1
-                    value["precio"]=value["precio"]+producto.precio
-                    break
-        self.guardar_carro()
-    
-    def guardar_carro(self):
-        self.session["carro"]=self.carro
-        self.session.modified=True
+    class Meta:
+        ordering = ('-creada', )
 
-    def eliminar(self, producto):
-        producto.id=str(producto.id)
-        if producto.id in self.carro:
-            del self.carro[producto.id]
-            self.guardar_carro()
+    def __str__(self):
+        return 'Orden {}'.format(self.id)
 
-    def restar(self, producto):
-        for key, value in self.carro.items():
-            if key==str(producto.id):
-                value["cantidad"]=value["cantidad"]-1
-                value["precio"]=value["precio"]-producto.precio
-                if value["cantidad"]<1:
-                    self.eliminar(producto)
-                break
-        self.guardar_carro()
+    def get_costo_total(self):
+        return sum(item.get_costo() for item in self.items.all())
 
-    def limpiar_carro(self):
-        self.session["carro"]={}
-        self.session.modified=True
+class OrdenItem(models.Model):
+    orden = models.ForeignKey(Orden, related_name='items', on_delete=models.CASCADE)
+    producto = models.ForeignKey(Producto, related_name='items_orden', on_delete=models.CASCADE)
+    precio = models.DecimalField(max_digits=10, decimal_places=2)
+    cantidad = models.PositiveIntegerField(default=1)
+
+    def __str__(self):
+        return '{}'.format(self.id)
+
+    def get_costo(self):
+        return self.precio * self.cantidad

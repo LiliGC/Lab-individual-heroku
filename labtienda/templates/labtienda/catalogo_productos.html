@@ -1,4 +1,4 @@
-{% extends './index.html' %}
+{% extends './base.html' %}
 
 {% block title %}<title>Catálogo de productos</title>{% endblock %}
 
@@ -8,9 +8,6 @@
         <div class="col-sm-12 text-center" style="background-color: #ebebfa">
             <h2>Productos</h2>
         </div> 
-        <div class="col-sm-12 text-right" style="background-color: #9999ff">
-            <h4>Tu carrito está vacio</h4>
-        </div>
         <div class="productos">
             {% for p in productos %}
             <div class="producto">
@@ -25,7 +22,7 @@
                         <h5 class="text-dark text-start">{{ p.nombre | title }}</h5>
                         <h5 class="text-dark text-start">${{ p.precio | intcomma }}</h5>
                         <a href="{% url 'producto_detalle' p.pk %}" class="btn btn-secondary">Ver detalle</a>
-                        <a href= "{% url 'productos' %}" class="btn btn-info"><i class="fa fa-shopping-cart fa-fw fa-lg"></i>Comprar</a> 
+                        <a href= "{% url 'orden_creacion' %}" class="btn btn-info"><i class="fa fa-shopping-cart fa-fw fa-lg"></i>Comprar</a> 
                     </div>  
                 </div>  
             </div>

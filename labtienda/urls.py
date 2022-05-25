@@ -25,4 +25,8 @@ urlpatterns = [
     path('comentario_delete/<int:pk>',views.comentario_delete, name='comentario_delete'),
     path('login/',views.login_user, name='login'),
     path('logout/',views.logout_user, name='logout'),
+    path('carro_detalle/', views.carro_detalle, name='carro_detalle'),
+    path('carro_agregar/<producto_id>/', views.carro_agregar, name='carro_agregar'),
+    path('carro_eliminar/<producto_id>/', views.carro_eliminar, name='carro_eliminar'),
+    path('orden_creacion/', views.orden_creacion, name='orden_creacion'),
 ]

@@ -1,6 +1,7 @@
 {% extends "./base.html" %}
 
 {% block content %}
+    {% load crispy_forms_tags %}
     {% load thumbnail %}
     {% load humanize %}
             <div class="row">
@@ -13,6 +14,11 @@
                     <h6 class="text-dark text-start">{{ producto.marca | capfirst }}</h6>
                     <h3 class="text-dark text-start">{{ producto.nombre | title }}</h3>
                     <h5 class="text-dark text-start">${{ producto.precio | intcomma }}</h5>
+                    <form action="{% url "carro_agregar" producto.id %}" method="post">
+                        {% csrf_token %}
+                        {{ carro_producto_form|crispy }}
+                        <input type="submit" value="Agregar al carro" class="btn btn-primary">
+                    </form>
                 </div>
                 <div class="col-sm-6 p-3 border text-start" style="background-color: #ebebfa">
                     <br>

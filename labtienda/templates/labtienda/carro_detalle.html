@@ -1,0 +1,72 @@
+{% extends './base.html' %}
+
+{% load thumbnail %}
+{% load humanize %}
+
+{% block content %}
+<div class="container">
+    <div class="row text-left" style="margin-top: 6%">
+        <h3>Tu carro de compras 
+            <span class="badge bg-light text-dark">
+                {% with items_totales=carro|length %}
+                    {% if carro|length > 0 %}
+                        <a href="{% url "carro_detalle" %}" style="color:  #000000"><h3>{{ item_totales }}Total{{ item_totales|pluralize }}, ${{ carro.get_precio_total }}<h3></a>
+                        {% else %}
+                            <h3>Tu carro está vacío</h3>
+                    {% endif %}
+                {% endwith %}
+            </span>
+        </h3>
+        <div class="table-responsive align-middle">    
+            <table id="clientes" class="table table-striped display nowrap" style="width:100%">
+                <thead style="background-color: #5AC8FA">
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Eliminar</th>
+                        <th>Precio Unitario</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for item in carro %}
+                    {% with producto=item.producto  %}
+                        <tr>
+                            <td>
+                                {% if producto.imagen %}
+                                    {% thumbnail producto.imagen '350x175' as imagen %}
+                                        <img src="{{ imagen.url }}" alt="imagen producto">
+                                    {% endthumbnail %}
+                                {% endif %}
+                            </td>
+                            <td>{{ producto.nombre | title }}</td>
+                            <td>
+                                <form action="{% url "carro_agregar" producto.id %}" method="post">
+                                    {% csrf_token %}
+                                    {{ item.actualizar_cantidad_form.cantidad }}
+                                    {{ item.actualizar_cantidad_form.actualizar }}
+                                    <input type="submit" value="Actualizar" class="btn btn-info">
+                                </form>
+                            </td>
+                            <td><a href="{% url "carro_eliminar" producto.id %}" class="btn btn-dark">Eliminar</a></td>
+                            <td> $ {{ item.precio| intcomma  }}</td>
+                            <td>$ {{ item.precio_total| intcomma  }}</td>
+                        </tr>
+                    {% endwith %}
+                {% endfor %}
+                <tr style="background-color: #5AC8FA">
+                    <td><b>Total</b></td>
+                    <td colspan="4"></td>
+                    <td colspan="num"><b>$ {{ carro.get_precio_total| intcomma  }}</b></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="text-right">
+            <a href="{% url "catalogo_productos" %}" class="btn btn-default">Continuar Comprando</a>
+            <a href="{% url "orden_creacion" %}" class="btn btn-primary">Checkout</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

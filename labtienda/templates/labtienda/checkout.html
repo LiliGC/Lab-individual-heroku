@@ -1,0 +1,15 @@
+{% extends './base.html' %}
+{% load crispy_forms_tags %}
+{% load humanize %}
+{% block title %}Checkout{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row" style="margin-top: 6%">
+        <div class="col-md-8 col-md-offset-2">
+            <h3 class="page-header">Gracias por comprar con nosotros</h3>
+            <p>Tu orden ha sido completada exitosamente. Tu numero de orden es <strong>{{ orden.id }}</strong>.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

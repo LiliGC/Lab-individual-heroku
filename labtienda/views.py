@@ -1,12 +1,15 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Client, Professional, Comentario, Producto, Categoria
-from .forms import ClienteForm,ProfessionalForm, ComentarioForm, ProductoForm
+from .models import Client, Professional, Comentario, Producto, OrdenItem, Orden
+from .forms import ClienteForm,ProfessionalForm, ComentarioForm, ProductoForm, OrdenCreateForm
 from .forms import NewUserForm
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
+from django.views.decorators.http import require_POST
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib import messages 
+from .carro import Carro
+from .forms import CarroAddProductForm
 
 # Create your views here.
 def index(request):
@@ -275,7 +278,7 @@ def registro_producto(request):
             producto.nombre=form.cleaned_data["nombre"]
             producto.marca=form.cleaned_data["marca"]
             producto.imagen=form.cleaned_data["imagen"]
-            producto.descripción=form.cleaned_data["descripción"]
+            producto.descripcion=form.cleaned_data["descripcion"]
             producto.precio=form.cleaned_data["precio"]
             producto.stock=form.cleaned_data["stock"]
             producto.save()
@@ -339,4 +342,59 @@ def catalogo_productos(request):
 @login_required
 def producto_detalle(request, pk):
     producto = get_object_or_404(Producto, pk=pk)
-    return render(request, 'labtienda/producto_detalle.html', {'producto': producto})
+    carro_producto_form = CarroAddProductForm()
+    context = {
+        'producto': producto,
+        'carro_producto_form': carro_producto_form
+    }
+    return render(request, 'labtienda/producto_detalle.html', context)
+
+@require_POST
+def carro_agregar(request, producto_id):
+    carro = Carro(request)
+    producto = get_object_or_404(Producto, id=producto_id)
+    form = CarroAddProductForm(request.POST)
+    if form.is_valid():
+        cd = form.cleaned_data
+        carro.agregar(producto=producto, cantidad=cd['cantidad'], actualizar_cantidad=cd['actualizar'])
+    return redirect('carro_detalle')
+
+def carro_eliminar(request, producto_id):
+    carro = Carro(request)
+    producto = get_object_or_404(Producto, id=producto_id)
+    carro.eliminar(producto)
+    return redirect('carro_detalle')
+
+def carro_detalle(request):
+    carro = Carro(request)
+    for item in carro:
+        item['actualizar_cantidad_form'] = CarroAddProductForm(initial={'cantidad': item['cantidad'], 'actualizar': True})
+    return render(request, 'labtienda/carro_detalle.html', {'carro': carro})
+
+def orden_creacion(request):
+    carro= Carro(request)
+    form = OrdenCreateForm()
+    if request.method == 'POST':
+        form = OrdenCreateForm(request.POST)
+        if form.is_valid():
+            orden= Orden()
+            orden.nombre=form.cleaned_data["nombre"]
+            orden.apellido=form.cleaned_data["apellido"]
+            orden.email=form.cleaned_data["email"]
+            orden.direccion=form.cleaned_data["direccion"]
+            orden.ciudad=form.cleaned_data["ciudad"]
+            orden.save()
+            messages.success(request, 'La orden se ha creado con éxito')       
+            for item in carro:
+                OrdenItem.objects.create(
+                    orden=orden,
+                    producto=item['producto'],
+                    precio=item['precio'],
+                    cantidad=item['cantidad']
+                )
+            carro.limpiar()
+        return render(request, 'labtienda/checkout.html', {'orden': orden})
+    else:
+        form = OrdenCreateForm()
+    return render(request, 'labtienda/orden_creacion.html', {'form': form})
+

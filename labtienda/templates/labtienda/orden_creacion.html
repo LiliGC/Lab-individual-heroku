@@ -1,0 +1,33 @@
+{% extends './base.html' %}
+{% load crispy_forms_tags %}
+{% load humanize %}
+{% block content %}
+    <div class="container">
+        <div class="row" style="margin-top: 6%">
+            <div class="col-md-8">
+                <h4 class="page-header">Checkout</h4>
+                <form action="." method="post">
+                    {% csrf_token %}
+                    {{ form|crispy }}<br>
+                    <input type="submit" class="btn btn-primary" value="Submit orden">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <div class="page-header">
+                    Tu orden
+                </div>
+                <ul class="list-group">
+                    {% for item in carro %}
+                            <li class="list-group-item">
+                                {{ item.cantidad }}x{{ item.producto.nombre }}
+                            <span>${{ item.precio_total}}</span>
+                            </li>
+                    
+                    <li class="list-group-item active">Costo total: $ {{ carro.get_precio_total| intcomma  }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

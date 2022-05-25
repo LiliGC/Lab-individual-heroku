@@ -1,0 +1,2908 @@
+[{
+        "model": "admin_interface.theme",
+        "pk": 1,
+        "fields": {
+            "name": "Django",
+            "active": false,
+            "title": "Django administration",
+            "title_color": "#F5DD5D",
+            "title_visible": true,
+            "logo": "",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 400,
+            "logo_max_height": 100,
+            "logo_visible": true,
+            "favicon": "",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": true,
+            "language_chooser_active": true,
+            "language_chooser_display": "code",
+            "css_header_background_color": "#0C4B33",
+            "css_header_text_color": "#44B78B",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#C9F0DD",
+            "css_module_background_color": "#44B78B",
+            "css_module_background_selected_color": "#FFFFCC",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#C9F0DD",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#0C3C26",
+            "css_generic_link_hover_color": "#156641",
+            "css_save_button_background_color": "#0C4B33",
+            "css_save_button_background_hover_color": "#0C3C26",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "foldable_apps": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "admin_interface.theme",
+        "pk": 2,
+        "fields": {
+            "name": "Laboratorios LGC",
+            "active": true,
+            "title": "Administración Laboratorios LGC",
+            "title_color": "#00F5F3",
+            "title_visible": true,
+            "logo": "admin-interface/logo/logo3.png",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 400,
+            "logo_max_height": 100,
+            "logo_visible": true,
+            "favicon": "",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": true,
+            "language_chooser_active": true,
+            "language_chooser_display": "code",
+            "css_header_background_color": "#5200CC",
+            "css_header_text_color": "#FFFFFF",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#EBEBFA",
+            "css_module_background_color": "#944DFF",
+            "css_module_background_selected_color": "#86FFF8",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#C9F0DD",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#8278CB",
+            "css_generic_link_hover_color": "#9435DB",
+            "css_save_button_background_color": "#2923C4",
+            "css_save_button_background_hover_color": "#1FA5D5",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "foldable_apps": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-04-23T23:04:52.693Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Clara Rojas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-04-23T23:06:33.657Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Lissette Guzman",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-04-23T23:07:50.075Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Sebastian Gallardo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-04-23T23:09:30.952Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Patricio Briones",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-04-23T23:11:58.298Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Manuel Figueroa",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-05-02T00:59:27.877Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Professionals",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-05-02T01:00:34.134Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Clients",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-05-02T01:02:02.578Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "Administrador",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-05-02T01:02:41.079Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "RominaG",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-05-02T01:03:06.275Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ClaraC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-05-02T01:03:20.770Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ClaraC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-05-02T01:12:28.252Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "19",
+            "object_repr": "Romina Garrido",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-05-02T01:13:23.728Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "RominaG",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-05-02T01:13:56.351Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Anibal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-05-02T01:16:03.358Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "20",
+            "object_repr": "Clara Camponovo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-05-02T01:22:19.447Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "RodrigoTs",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-05-02T01:24:57.625Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "valentinamz",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-05-15T22:32:00.362Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-05-15T22:32:48.806Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-05-15T22:33:26.686Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Text color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-05-15T22:34:41.044Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-05-15T22:35:01.294Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-05-15T22:35:26.360Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-05-15T22:35:51.661Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-05-15T22:36:10.043Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-05-15T22:36:36.806Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-05-15T22:36:54.546Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-05-15T22:37:41.006Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-05-15T22:38:11.794Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-05-15T22:38:48.956Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background selected color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-05-15T22:39:19.166Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-05-15T22:39:40.891Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-05-15T22:54:18.952Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-05-15T22:54:59.204Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-05-15T22:57:13.706Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-05-15T22:57:38.679Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-05-15T23:04:10.693Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-05-15T23:04:24.620Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-05-16T21:58:12.318Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "SD Biosensor",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-05-16T21:58:17.717Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "BGI",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-05-16T21:59:01.313Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Alltest",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-05-16T22:00:01.055Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "Axygen",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2022-05-16T22:02:33.472Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "5",
+            "object_repr": "Cellex",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2022-05-17T21:52:37.698Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Insumos Covid",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2022-05-17T21:52:58.579Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Insumos Biologia Molecular",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2022-05-17T22:07:11.297Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Test rápido Covid (25 tests)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2022-05-17T22:15:15.702Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Test rápido autodiagnóstico Covid (oral)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2022-05-17T22:19:51.166Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Test Nasal COVID-19",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2022-05-17T22:24:38.975Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Torulas nasofaríngeas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2022-05-17T22:32:14.671Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "Kit toma de muestra COVID",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2022-05-17T22:38:45.922Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "6",
+            "object_repr": "Puntas con filtro 0.5-10ul rack estéril",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2022-05-17T22:40:26.579Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "7",
+            "object_repr": "Microplaca 100 uL para PCR",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2022-05-19T20:42:14.593Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Laboratorios LGC",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 7,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 7,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 7,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 7,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add professional",
+            "content_type": 8,
+            "codename": "add_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change professional",
+            "content_type": 8,
+            "codename": "change_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete professional",
+            "content_type": 8,
+            "codename": "delete_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view professional",
+            "content_type": 8,
+            "codename": "view_professional"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add client",
+            "content_type": 9,
+            "codename": "add_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change client",
+            "content_type": 9,
+            "codename": "change_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete client",
+            "content_type": 9,
+            "codename": "delete_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view client",
+            "content_type": 9,
+            "codename": "view_client"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add comentario",
+            "content_type": 10,
+            "codename": "add_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change comentario",
+            "content_type": 10,
+            "codename": "change_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete comentario",
+            "content_type": 10,
+            "codename": "delete_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view comentario",
+            "content_type": 10,
+            "codename": "view_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add Theme",
+            "content_type": 11,
+            "codename": "add_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change Theme",
+            "content_type": 11,
+            "codename": "change_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete Theme",
+            "content_type": 11,
+            "codename": "delete_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view Theme",
+            "content_type": 11,
+            "codename": "view_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add categoría",
+            "content_type": 12,
+            "codename": "add_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change categoría",
+            "content_type": 12,
+            "codename": "change_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete categoría",
+            "content_type": 12,
+            "codename": "delete_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view categoría",
+            "content_type": 12,
+            "codename": "view_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add producto",
+            "content_type": 13,
+            "codename": "add_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change producto",
+            "content_type": 13,
+            "codename": "change_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete producto",
+            "content_type": 13,
+            "codename": "delete_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view producto",
+            "content_type": 13,
+            "codename": "view_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add marca",
+            "content_type": 14,
+            "codename": "add_marca"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change marca",
+            "content_type": 14,
+            "codename": "change_marca"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete marca",
+            "content_type": 14,
+            "codename": "delete_marca"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view marca",
+            "content_type": 14,
+            "codename": "view_marca"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add kv store",
+            "content_type": 15,
+            "codename": "add_kvstore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change kv store",
+            "content_type": 15,
+            "codename": "change_kvstore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete kv store",
+            "content_type": 15,
+            "codename": "delete_kvstore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view kv store",
+            "content_type": 15,
+            "codename": "view_kvstore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add orden",
+            "content_type": 16,
+            "codename": "add_orden"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change orden",
+            "content_type": 16,
+            "codename": "change_orden"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete orden",
+            "content_type": 16,
+            "codename": "delete_orden"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view orden",
+            "content_type": 16,
+            "codename": "view_orden"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add orden item",
+            "content_type": 17,
+            "codename": "add_ordenitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change orden item",
+            "content_type": 17,
+            "codename": "change_ordenitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete orden item",
+            "content_type": 17,
+            "codename": "delete_ordenitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view orden item",
+            "content_type": 17,
+            "codename": "view_ordenitem"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Professionals",
+            "permissions": [
+                12,
+                17,
+                18,
+                19,
+                20,
+                33,
+                34,
+                35,
+                36,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Clients",
+            "permissions": [
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+            "name": "Administrador",
+            "permissions": [
+                9,
+                10,
+                11,
+                12,
+                5,
+                6,
+                7,
+                8,
+                13,
+                14,
+                15,
+                16,
+                33,
+                34,
+                35,
+                36,
+                29,
+                30,
+                31,
+                32,
+                25,
+                26,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$4w2bUMJAgHwxNEZnGhNSFT$S1GQ38qqzU5+YywEpxkBDpLqyAQzhYtOfSEyrdOfl/M=",
+            "last_login": "2022-05-25T06:16:58.567Z",
+            "is_superuser": true,
+            "username": "LiliGC",
+            "first_name": "",
+            "last_name": "",
+            "email": "liliana.garmendia.c@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-12T23:14:44.127Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$nzksqSOSg2Qe3cbEAEoibk$m77XHf8rfUyxSgaqB68BBx6F3Ky7ZVWit4TlO3r3uGo=",
+            "last_login": "2022-05-02T23:49:20.820Z",
+            "is_superuser": false,
+            "username": "Anibal",
+            "first_name": "",
+            "last_name": "",
+            "email": "anibal@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-26T01:35:13Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": [
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$rRelcBXxOzgIno05YBocUZ$13sfsHQxN29zlNyBO5EDkFcHsr3gbAxECL1/LuKQ220=",
+            "last_login": "2022-05-23T16:38:47.894Z",
+            "is_superuser": false,
+            "username": "ClaraC",
+            "first_name": "",
+            "last_name": "",
+            "email": "clarac@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-01T05:07:56Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$G0v11YYJvJZFFDeipUJnTS$lRcOeFycit93Gd5VYZ2eo1lzDI8aIBQw+PcYHPUZTWU=",
+            "last_login": "2022-05-01T23:21:58Z",
+            "is_superuser": false,
+            "username": "RominaG",
+            "first_name": "",
+            "last_name": "",
+            "email": "rominag@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-01T23:19:26Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$DOUmzxNnGeSED8LKokZleo$2wdhsFU0BPoi5nCN0vXzOWayrPwWilKNTkIpbdszvoU=",
+            "last_login": "2022-05-02T01:20:54Z",
+            "is_superuser": false,
+            "username": "RodrigoTs",
+            "first_name": "",
+            "last_name": "",
+            "email": "rodrigotesta@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-02T01:20:54Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$ktQQmFyZICu16NV0qXXvzN$VkOOX/CRNi437+734IK+iPNLZCZ7atksXt3JLC58QeE=",
+            "last_login": "2022-05-25T03:05:09.989Z",
+            "is_superuser": false,
+            "username": "valentinamz",
+            "first_name": "",
+            "last_name": "",
+            "email": "valentinamez@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-02T01:23:53Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "professional"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "client"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "comentario"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "admin_interface",
+            "model": "theme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "categoria"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "producto"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "marca"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "thumbnail",
+            "model": "kvstore"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "orden"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "labtienda",
+            "model": "ordenitem"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "2nemqwrhf82xabt5hal1ip4u8m78f6x5",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1ns9jc:G1J_0enN0qV5WU05Vb9rHU-mtuus8aqkqsDjZaFG5Hs",
+            "expire_date": "2022-06-03T21:00:32.724Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "31omyuflmad79pfqet9cidkpnn1rxfro",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSG-XkiZ3mdAwC7BSYQlY1dR7h5bcpG0b-bNm4W4rTVsnZYwIbsyzS6_W4r5Se0A-IjtPvM8t3WZEj8UftLOxxnpdTvdv0CNve5vQYClKB-t9CQMFDIaySkJAzgwyUqzx6TWyoI0pCwaP2jysmibnRDs8wXUszbt:1nr831:Vir7G3jXl2EBBBoLylxHrIdrRvhP_fpuhyoX-VI-J6Y",
+            "expire_date": "2022-06-01T01:00:19.640Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "3p87i5ixff6sq3qtsarid9n7mvy7enjo",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSG-XkiZ3mdAwC7BSYQlY1dR7h5bcpG0b-bNm4W4rTVsnZYwIbsyzS6_W4r5Se0A-IjtPvM8t3WZEj8UftLOxxnpdTvdv0CNve5vQYClKB-t9CQMFDIaySkJAzgwyUqzx6TWyoI0pCwaP2jysmibnRDs8wXUszbt:1nqlqI:WJ0KRZJcLG4Tb-h6ZO-iBdTk5YtQ8QN_Kl6qVDfHai0",
+            "expire_date": "2022-05-31T01:17:42.789Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "5qief6da09vb5xqyudv13czxl3rg78sh",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1ngynx:4SdfmNa1XbYSA0-LVIQGnnGgHxgCTDxfiojLgnyBvug",
+            "expire_date": "2022-05-04T01:06:49.712Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "6kdvck6x1hcnrayuvnxeq9h9kas1a7e9",
+        "fields": {
+            "session_data": "eyJjYXJybyI6e319:1ntfVE:MLVadAbTfD8kRm7xyeGGKsbI3QXwoCviKXT59krHTXM",
+            "expire_date": "2022-06-08T01:07:56.895Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "go4amw42f5ow4z90teabrpnq39scww9b",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pDCwJS6dO8ZyJQZpGpoUtqV8e7apAvd_vfef6lI21ri1mSJE6uzcur0u42UHlJ3wHeqt1mnua7LNOpd0Qdt-jqzPC-H-3dQqJVvjZ31AgJsHEnveoMSfGeNIAGjN8gu5AA0IA5sMmSbA0HCZAOzR6feH8ZNN1Q:1nlIt4:JKNzXr1NjtlnDvFFfH3_tkMwTlDtmqb2yAv_RzjKvLM",
+            "expire_date": "2022-05-15T23:21:58.972Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ir8qzi1z295hi2ectag0j07llzy82ej3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nrUaG:Lq-m3Csni2mY3Zpzny1uV3nUZiIcqwWeqi45bepz1k0",
+            "expire_date": "2022-06-02T01:04:08.496Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "k6c7h85duw9wkiof5gekwtqb9yyqfsap",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nlLB5:hHINyNYSGtg4PLrSzvyTXvwIsHD8fTr2DdHfinNNwxA",
+            "expire_date": "2022-05-16T01:48:43.561Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "kcxll4ev983pro87z1jowvcvlkrks6e5",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1ntIko:Lb3_oFAHL-9l1Ed1EWfmYQ7pKDWqKQsYI108G7pGr4I",
+            "expire_date": "2022-06-07T00:50:30.333Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lgz0oaqfu7g5pwkr7ztbl1q52594w9j0",
+        "fields": {
+            "session_data": ".eJxVjEEOgyAQRe8y64YgDgVddt8zmGFgqm0jCejKePfWxI3b_977GzCVkqHf9hsMtC7jsNZUhilCDw1ctkD8SfMB4pvmV1ac56VMQR2KOmlVzxzT93G6l4OR6vivvU4OjXVitFij74ShSejZSMdIHCJ1MQi3Dr1Y1GjFsWsFPZHoRA3sP3dWPBc:1ntkKI:scR9qWN4uksOgFbMojjCrMSCFzwLjlne7T13fV-DzHw",
+            "expire_date": "2022-06-08T06:16:58.620Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "uvyqhebz7ainqvykavxshlu27s5s0uyi",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlnrv0xJzxmsza6NA8iW4qRC3B0ipYD2zcx7iYTbWtM28pJmFmfhxel3m5Aeue2A79huXVJv6zJPclfkQYe8ds7Py-H-HVQc9VurUoLBCKyDthYxRGuQAJlccMZ5jiUrjYTAtjBY5KIYfPZA2rNj8f4A8A44fQ:1nrpoI:sDXhvkwbuxrjxLy7YJ458GII9Gt5i72srezoUQ60mXs",
+            "expire_date": "2022-06-02T23:44:02.507Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "v0y6mgmaelrgsuplv3jyznw2fqm2kv3a",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nsDMI:EBeQvJeWsMnaI2eaoD2jfMAJsWViWxImnbqnJH8Jt1w",
+            "expire_date": "2022-06-04T00:52:42.454Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "zwsbude7wcmucj1zznbt1xmsl607a4m5",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgg1CX7nsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIitDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLqaX8vB7u30HBXr61V9mBsY6NYmvUGSHqDJ4MjwRIMeGYItPgwLMFBZYduYHBI7LKqMX7A-LNOF4:1nePjt:slvoXSOgBgadPapsckWe4ll1Z4Sx94iVXzEjYtbbaqI",
+            "expire_date": "2022-04-26T23:16:01.844Z"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 1,
+        "fields": {
+            "name": "Clara",
+            "last_name": "Rojas",
+            "birth_date": "1979-03-10",
+            "phone": 940586123,
+            "email": "clara@gmail.com",
+            "address": "Av. Chacabuco, 402, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 2,
+        "fields": {
+            "name": "Lissette",
+            "last_name": "Guzman",
+            "birth_date": "1986-09-11",
+            "phone": 942577698,
+            "email": "lissetteg@outlook.com",
+            "address": "Av. Miraflores, 1244, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 3,
+        "fields": {
+            "name": "Sebastian",
+            "last_name": "Gallardo",
+            "birth_date": "1985-12-06",
+            "phone": 962587443,
+            "email": "sebagallardo@gmail.com",
+            "address": "Freire, 252, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 4,
+        "fields": {
+            "name": "Patricio",
+            "last_name": "Briones",
+            "birth_date": "1967-05-20",
+            "phone": 995221783,
+            "email": "patriciobr@gmail.com",
+            "address": "Los Guindos, 1254, Calle Larga"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 5,
+        "fields": {
+            "name": "Manuel",
+            "last_name": "Figueroa",
+            "birth_date": "1990-06-20",
+            "phone": 982547361,
+            "email": "manuelfig@gmail.com",
+            "address": "Av. Alvarez, 1154, Viña del Mar"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 6,
+        "fields": {
+            "name": "Isabel",
+            "last_name": "Pereira",
+            "birth_date": "1995-09-12",
+            "phone": 990527456,
+            "email": "isabelper@gmail.com",
+            "address": "Maipú, 1452, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 7,
+        "fields": {
+            "name": "Miguel",
+            "last_name": "Gamboa",
+            "birth_date": "1997-08-11",
+            "phone": 945178236,
+            "email": "miguelgamb@gmail.com",
+            "address": "Las Lilas, 1452, Rinconada"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 8,
+        "fields": {
+            "name": "Simón",
+            "last_name": "Montenegro",
+            "birth_date": "1987-01-12",
+            "phone": 912478235,
+            "email": "simonmon@gmail.com",
+            "address": "Lusitania, 555, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 9,
+        "fields": {
+            "name": "Maria",
+            "last_name": "Cuevas",
+            "birth_date": "1981-09-12",
+            "phone": 982546127,
+            "email": "mariacuevas@gmail.com",
+            "address": "Av. Valparaíso, 1142, Viña del Mar"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 10,
+        "fields": {
+            "name": "Valentina",
+            "last_name": "Meza",
+            "birth_date": "1993-03-10",
+            "phone": 987725639,
+            "email": "valentinamez@gmail.com",
+            "address": "Rodriguez, 520, Llay Llay"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 11,
+        "fields": {
+            "name": "Aníbal",
+            "last_name": "Villegas",
+            "birth_date": "1986-10-03",
+            "phone": 912543960,
+            "email": "anibalvill@gmail.com",
+            "address": "Av. Libertador Bernardo O'higgins, 1420, La Calera"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 12,
+        "fields": {
+            "name": "Lucas",
+            "last_name": "Campos",
+            "birth_date": "1975-10-22",
+            "phone": 988125365,
+            "email": "lucascampos@gmail.com",
+            "address": "Las Heras, 450, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 13,
+        "fields": {
+            "name": "Leonidas",
+            "last_name": "Castro",
+            "birth_date": "1984-05-10",
+            "phone": 945823602,
+            "email": "leonidascas@gmail.com",
+            "address": "Arturo Prat, 125, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 14,
+        "fields": {
+            "name": "Adrian",
+            "last_name": "Gutierrez",
+            "birth_date": "1973-05-13",
+            "phone": 958412369,
+            "email": "adriang@gmail.com",
+            "address": "Freire, 555, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 15,
+        "fields": {
+            "name": "Rodrigo",
+            "last_name": "Saa",
+            "birth_date": "1987-03-20",
+            "phone": 985236124,
+            "email": "rodrigo@gmail.com",
+            "address": "Sarmiento, 222, Santiago"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 16,
+        "fields": {
+            "name": "Aníbal",
+            "last_name": "Campos",
+            "birth_date": "2020-01-01",
+            "phone": 3412412,
+            "email": "albertob@gmail.com",
+            "address": "Sarmiento, 222, Santiago"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 17,
+        "fields": {
+            "name": "Vicente",
+            "last_name": "Celedón",
+            "birth_date": "1995-10-22",
+            "phone": 941258716,
+            "email": "vicentecel@gmail.com",
+            "address": "Av. Brasil, 1142, Valparaiso"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 18,
+        "fields": {
+            "name": "Stephanie",
+            "last_name": "Garrido",
+            "birth_date": "1990-05-09",
+            "phone": 987221639,
+            "email": "stephanieg@gmail.com",
+            "address": "Av. Santa Teresa, 1452, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 19,
+        "fields": {
+            "name": "Romina",
+            "last_name": "Garrido",
+            "birth_date": "1984-08-22",
+            "phone": 995401338,
+            "email": "rominag@gmail.com",
+            "address": "Rafael Grasso, 222, El Horizonte, Los Andes"
+        }
+    },
+    {
+        "model": "labtienda.user",
+        "pk": 20,
+        "fields": {
+            "name": "Clara",
+            "last_name": "Camponovo",
+            "birth_date": "1974-11-20",
+            "phone": 995023451,
+            "email": "clarac@gmail.com",
+            "address": "Av. Miraflores, 1268, San Felipe"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 1,
+        "fields": {
+            "ci": "13652147-2"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 2,
+        "fields": {
+            "ci": "16554897-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 3,
+        "fields": {
+            "ci": "15114789-3"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 4,
+        "fields": {
+            "ci": "10550631-4"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 5,
+        "fields": {
+            "ci": "17356987-5"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 6,
+        "fields": {
+            "ci": "18202136-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 7,
+        "fields": {
+            "ci": "19442631-0"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 8,
+        "fields": {
+            "ci": "16112341-6"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 9,
+        "fields": {
+            "ci": "14152360-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 10,
+        "fields": {
+            "ci": "18112036-8"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 11,
+        "fields": {
+            "ci": "10542365-8"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 12,
+        "fields": {
+            "ci": "12145630-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 13,
+        "fields": {
+            "ci": "17441258-3"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 14,
+        "fields": {
+            "ci": "12874236-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 15,
+        "fields": {
+            "ci": "16555488-1"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 16,
+        "fields": {
+            "ci": "3323423427"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 17,
+        "fields": {
+            "ci": "18352111-0"
+        }
+    },
+    {
+        "model": "labtienda.client",
+        "pk": 18,
+        "fields": {
+            "ci": "17551256-3"
+        }
+    },
+    {
+        "model": "labtienda.professional",
+        "pk": 19,
+        "fields": {
+            "title": "Tecnólogo médico",
+            "ci": "15112452-9",
+            "registration_date": "2022-05-01"
+        }
+    },
+    {
+        "model": "labtienda.professional",
+        "pk": 20,
+        "fields": {
+            "title": "Bioquímico",
+            "ci": "12002654-3",
+            "registration_date": "2022-05-01"
+        }
+    },
+    {
+        "model": "labtienda.comentario",
+        "pk": 1,
+        "fields": {
+            "nombre": "LiliGC",
+            "correo_electronico": "lili@gmail.com",
+            "tipo_consulta": 2,
+            "mensaje": "Ahora esta funcionando el link"
+        }
+    },
+    {
+        "model": "labtienda.comentario",
+        "pk": 2,
+        "fields": {
+            "nombre": "ClaraC",
+            "correo_electronico": "clara.sald@gmail.com",
+            "tipo_consulta": 0,
+            "mensaje": "Cuando van a estar habilitada la página para ver los examenes."
+        }
+    },
+    {
+        "model": "labtienda.comentario",
+        "pk": 3,
+        "fields": {
+            "nombre": "Daniel",
+            "correo_electronico": "daniel.saa@gmail.com",
+            "tipo_consulta": 0,
+            "mensaje": "Si tienen el test de antigeno."
+        }
+    },
+    {
+        "model": "labtienda.comentario",
+        "pk": 4,
+        "fields": {
+            "nombre": "ClaraC",
+            "correo_electronico": "clarac@gmail.com",
+            "tipo_consulta": 0,
+            "mensaje": "Cuando van a implementar el catalogo de productos"
+        }
+    },
+    {
+        "model": "labtienda.comentario",
+        "pk": 5,
+        "fields": {
+            "nombre": "valentinamz",
+            "correo_electronico": "valentinamz@gmail.com",
+            "tipo_consulta": 0,
+            "mensaje": "Cuando van habilitar la página de productos detallada."
+        }
+    },
+    {
+        "model": "labtienda.marca",
+        "pk": 1,
+        "fields": {
+            "nombre": "SD Biosensor"
+        }
+    },
+    {
+        "model": "labtienda.marca",
+        "pk": 2,
+        "fields": {
+            "nombre": "BGI"
+        }
+    },
+    {
+        "model": "labtienda.marca",
+        "pk": 3,
+        "fields": {
+            "nombre": "Alltest"
+        }
+    },
+    {
+        "model": "labtienda.marca",
+        "pk": 4,
+        "fields": {
+            "nombre": "Axygen"
+        }
+    },
+    {
+        "model": "labtienda.marca",
+        "pk": 5,
+        "fields": {
+            "nombre": "Cellex"
+        }
+    },
+    {
+        "model": "labtienda.categoria",
+        "pk": 1,
+        "fields": {
+            "nombre": "Insumos Covid",
+            "slug": "insumos-covid"
+        }
+    },
+    {
+        "model": "labtienda.categoria",
+        "pk": 2,
+        "fields": {
+            "nombre": "Insumos Biologia Molecular",
+            "slug": "insumos-biologia-molecular"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 1,
+        "fields": {
+            "categoria": 1,
+            "nombre": "Test rápido Covid (25 tests)",
+            "slug": "test-rapido-covid-25-tests",
+            "marca": 5,
+            "imagen": "productos/test-rapido-para-deteccion-covid-19-marca-cellex-25-test.jpg",
+            "descripcion": "Kit Marca CELLEX, SARS-CoV-2 IgG/IgM\r\n\r\nAprobado por la FDA, ISP,  Certificación CE-IVD\r\n1 gota de sangre\r\nDetecta IgM e IgG\r\n\r\nIncluye: 25 cassettes, 25 lancetas, 25 capilares, 25 pad con alcohol y 1 Buffer\r\n Resultado en 15 minutos\r\n\r\n Despacho a todo Chile",
+            "precio": 108000,
+            "stock": 20,
+            "disponible": true,
+            "creado": "2022-05-17T22:07:11.292Z",
+            "actualizado": "2022-05-17T22:07:11.292Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 2,
+        "fields": {
+            "categoria": 1,
+            "nombre": "Test rápido autodiagnóstico Covid (oral)",
+            "slug": "test-rapido-autodiagnostico-covid-oral",
+            "marca": 3,
+            "imagen": "productos/alltest-autodiagnostico.jpg",
+            "descripcion": "Alltest Test Rápido Antígeno De Covid-19 (Fluido Oral)\r\n\r\nEl Test Rápido del Antígeno de COVID-19, es un kit de prueba de un solo uso destinado a detectar el nuevo coronavirus SARS-CoV-2 que causa la COVID-19 en el líquido oral humano. Esta prueba está diseñada para uso personal y en el hogar con muestras de fluido oral recogidas por el propio paciente que se sospecha que está infectado con COVID-19.\r\n\r\nConfiable y seguro: alta correlación con PCR.\r\nRápido: resultados en 15 minutos.",
+            "precio": 9990,
+            "stock": 30,
+            "disponible": true,
+            "creado": "2022-05-17T22:15:15.698Z",
+            "actualizado": "2022-05-17T22:15:15.698Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 3,
+        "fields": {
+            "categoria": 1,
+            "nombre": "Test Nasal COVID-19",
+            "slug": "test-nasal-covid-19",
+            "marca": 1,
+            "imagen": "productos/caja-covid-nasal.jpg",
+            "descripcion": "Más seguro: Buffer Inactivante Viral en tubos individuales, listo para usar.\r\nSensibilidad: 97.12% (95% CI, 91.86% - 99.01%) *\r\nEspecificidad: 100% (95% CI, 99.05% - 100%) *\r\nSimple: lectura visual\r\nOrigen COREA\r\n(*) Evaluado analíticamente por la facultad de Medicina de la Universidad Catolica de Chile",
+            "precio": 150000,
+            "stock": 20,
+            "disponible": true,
+            "creado": "2022-05-17T22:19:51.163Z",
+            "actualizado": "2022-05-17T22:19:51.163Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 4,
+        "fields": {
+            "categoria": 1,
+            "nombre": "Torulas nasofaríngeas",
+            "slug": "torulas-nasofaringeas",
+            "marca": 2,
+            "imagen": "productos/Torulas-Boen.jpg",
+            "descripcion": "Tórulas nasofaríngeas estéril con tecnología innovadora de nylon integrado, para una toma de muestra eficiente. Permite una gran recuperación celular para mejorar la sensibilidad analítica de la prueba a procesar. Su mango es flexible con un punto de quiebre óptimo para la toma de muestra.\r\n\r\nBolsa 50 unidades.",
+            "precio": 28000,
+            "stock": 20,
+            "disponible": true,
+            "creado": "2022-05-17T22:24:38.969Z",
+            "actualizado": "2022-05-17T22:24:38.969Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 5,
+        "fields": {
+            "categoria": 1,
+            "nombre": "Kit toma de muestra COVID",
+            "slug": "kit-toma-de-muestra-covid",
+            "marca": 2,
+            "imagen": "productos/VTM-Torula-Boen.jpg",
+            "descripcion": "El kit de medio de transporte viral está diseñado para la recolección, transporte y mantención de la viabilidad para virus tales como: SARS-CoV-2 e Influenza.\r\nCada kit contiene: 1 tubo cónico con 3ml de Medio de transporte universal + 1 tórula nasofaríngea + Bolsa de transporte de bioseguridad.",
+            "precio": 5000,
+            "stock": 30,
+            "disponible": true,
+            "creado": "2022-05-17T22:32:14.668Z",
+            "actualizado": "2022-05-17T22:32:14.668Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 6,
+        "fields": {
+            "categoria": 2,
+            "nombre": "Puntas con filtro 0.5-10ul rack estéril",
+            "slug": "puntas-con-filtro-05-10ul-rack-esteril",
+            "marca": 4,
+            "imagen": "productos/punta-universal-05-10-l.png",
+            "descripcion": "Las puntas de barrera de filtro Axygen son ideales para amplificación de ADN y aplicaciones microbiológicas donde la contaminación por trazas puede invalidar completamente los resultados. \r\n\r\nRNase- / DNase-free\r\nNo pirogénico\r\nEstéril",
+            "precio": 6500,
+            "stock": 60,
+            "disponible": true,
+            "creado": "2022-05-17T22:38:45.916Z",
+            "actualizado": "2022-05-17T22:38:45.916Z"
+        }
+    },
+    {
+        "model": "labtienda.producto",
+        "pk": 7,
+        "fields": {
+            "categoria": 2,
+            "nombre": "Microplaca 100 uL para PCR",
+            "slug": "microplaca-100-ul-para-pcr",
+            "marca": 4,
+            "imagen": "productos/microplaca-100-ul-para-pcr.jpg",
+            "descripcion": "La microplaca PCR de bajo perfil Axygen 96 está diseñada para ajustarse a los secuenciadores y ciclos térmicos de PCR en tiempo real ABI. Se puede sellar con tapas de tira 8/12, Axymat o película de sellado.\r\n\r\nRNase- / DNase-free\r\nNo pirogénico\r\nNo estéril\r\nFabricado con polipropileno virgen puro al 99.9%\r\nPlaca de PCR de perfil bajo semi-bordeada de 96 pocillos\r\nOptimizado para PCR rápida\r\nDiseñado para Termocicladores ABI",
+            "precio": 15200,
+            "stock": 50,
+            "disponible": true,
+            "creado": "2022-05-17T22:40:26.576Z",
+            "actualizado": "2022-05-23T23:46:28.632Z"
+        }
+    },
+    {
+        "model": "labtienda.orden",
+        "pk": 1,
+        "fields": {
+            "nombre": "LiliGC",
+            "apellido": "GC",
+            "direccion": "Lusitania 680",
+            "email": "liliana.garmendia.c@gmail.com",
+            "ciudad": "Viña del Mar",
+            "creada": "2022-05-25T05:16:35.561Z",
+            "actualizada": "2022-05-25T05:16:35.561Z",
+            "pagada": false
+        }
+    },
+    {
+        "model": "labtienda.orden",
+        "pk": 2,
+        "fields": {
+            "nombre": "LiliGC",
+            "apellido": "GC",
+            "direccion": "Lusitania 680",
+            "email": "liliana.garmendia.c@gmail.com",
+            "ciudad": "Viña del Mar",
+            "creada": "2022-05-25T05:18:02.550Z",
+            "actualizada": "2022-05-25T05:18:02.550Z",
+            "pagada": false
+        }
+    },
+    {
+        "model": "labtienda.orden",
+        "pk": 3,
+        "fields": {
+            "nombre": "LiliGC",
+            "apellido": "GC",
+            "direccion": "Lusitania 680",
+            "email": "liliana.garmendia.c@gmail.com",
+            "ciudad": "Viña del Mar",
+            "creada": "2022-05-25T05:38:09.921Z",
+            "actualizada": "2022-05-25T05:38:09.921Z",
+            "pagada": false
+        }
+    },
+    {
+        "model": "labtienda.ordenitem",
+        "pk": 1,
+        "fields": {
+            "orden": 1,
+            "producto": 6,
+            "precio": "6500.00",
+            "cantidad": 7
+        }
+    },
+    {
+        "model": "labtienda.ordenitem",
+        "pk": 2,
+        "fields": {
+            "orden": 1,
+            "producto": 5,
+            "precio": "5000.00",
+            "cantidad": 1
+        }
+    },
+    {
+        "model": "labtienda.ordenitem",
+        "pk": 3,
+        "fields": {
+            "orden": 2,
+            "producto": 6,
+            "precio": "6500.00",
+            "cantidad": 7
+        }
+    },
+    {
+        "model": "labtienda.ordenitem",
+        "pk": 4,
+        "fields": {
+            "orden": 2,
+            "producto": 5,
+            "precio": "5000.00",
+            "cantidad": 1
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||031caa9b6a2a6f65692eeca373249baf",
+        "fields": {
+            "value": "{\"name\": \"cache/0e/e2/0ee2be8396ef3ca6c7dbadf1332f7177.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||0363d738725fb589a5bd073e7cd1a115",
+        "fields": {
+            "value": "{\"name\": \"cache/05/ff/05ffcad2dfc09142b2b7b9cfafb6fb20.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||0aea9689bc8b0a8495a7d14795fe570d",
+        "fields": {
+            "value": "{\"name\": \"cache/8a/8d/8a8defe49e3b079804361fc5fd55713c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [256, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||0ca41bc64cea9968e15bd1b3fad82ee7",
+        "fields": {
+            "value": "{\"name\": \"cache/c7/de/c7de84da19af408c7b5f6c51fdfec813.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||14644d36f4a50199f31ff8d27732db2d",
+        "fields": {
+            "value": "{\"name\": \"cache/8e/c2/8ec286a70a5491607081cd0f5543800f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||1aad7055b159f0b48fd0315d13a4c725",
+        "fields": {
+            "value": "{\"name\": \"cache/95/bd/95bd761ae953863ea5cc9046740cdd04.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [220, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||1e941dc305a07e5ea77b88011da84d05",
+        "fields": {
+            "value": "{\"name\": \"cache/3c/59/3c59c6e72f99588ae8be869d839337ab.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [439, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||20e4d8f1b48ba092fb496dac2a700445",
+        "fields": {
+            "value": "{\"name\": \"cache/a9/aa/a9aa3775d9f5524c73097926943c2e25.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||221b28a1c29a183978416abcd773b62f",
+        "fields": {
+            "value": "{\"name\": \"cache/90/15/9015a202b23abf97cfa2546829c229b8.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [146, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||432534eec633968697b3946c0f9df0d7",
+        "fields": {
+            "value": "{\"name\": \"cache/66/39/6639c081c3186d90093380638b7f8a5a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||476b0d6907597195b315e354ae53b67f",
+        "fields": {
+            "value": "{\"name\": \"cache/a1/17/a1179e508e16bc63286545b536dcf0d6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||4bf72271d72a63943dc97ae312c2c0b6",
+        "fields": {
+            "value": "{\"name\": \"cache/11/69/116939e148957a83725ed9081088cc7a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||4cb988d1b3e898808c5611cfcd733813",
+        "fields": {
+            "value": "{\"name\": \"productos/alltest-autodiagnostico.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [1000, 1000]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||4ef2381ee2d42fcedeae3de6f3623bf8",
+        "fields": {
+            "value": "{\"name\": \"cache/dc/a6/dca6b646051d7e2093f04aff75825fdf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||563e7e1b458f644abbaeb8aa8a9ac5c8",
+        "fields": {
+            "value": "{\"name\": \"cache/d7/b5/d7b512c2d6461219c833c2d3b9a0bcfc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||5c98abfc7a5ba022a22ca29ad88ffef6",
+        "fields": {
+            "value": "{\"name\": \"cache/93/7f/937fcc1a7b131cbaf0c1d94fda4caa33.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||5fa8d55fc28662b4e4b98b73806a439c",
+        "fields": {
+            "value": "{\"name\": \"cache/be/cf/becfc76f7173693c28d6b9a9d9ae0f7d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||6164f441765c6e5b4ada131d0f75a798",
+        "fields": {
+            "value": "{\"name\": \"productos/microplaca-100-ul-para-pcr.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||68243fc1160d82f3e391f10ea20de196",
+        "fields": {
+            "value": "{\"name\": \"cache/95/5a/955a3c5751affa2a03d1cd692b9492ac.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||6c5ebde55ac23be5686ede49a3ef9733",
+        "fields": {
+            "value": "{\"name\": \"cache/4a/20/4a2048b143a916d2df9897093d8a1aa9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||7edab573f2eb48541560fe0f3ef643bf",
+        "fields": {
+            "value": "{\"name\": \"cache/3b/e9/3be95c24bd225b819e2ac083078ebbb6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||83a28966969074ff1f8bb7b13d4d82e8",
+        "fields": {
+            "value": "{\"name\": \"cache/0d/e4/0de4ab3152d24f858167d7669603ddfe.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||8925611bd6d725b609b86f6c820cc4d2",
+        "fields": {
+            "value": "{\"name\": \"productos/punta-universal-05-10-l.png\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||8f2aa1abf7a7f8dce7db14a6398b63c2",
+        "fields": {
+            "value": "{\"name\": \"productos/caja-covid-nasal.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [668, 456]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||906f0337ba5513aab20a31856b4305c6",
+        "fields": {
+            "value": "{\"name\": \"cache/07/d7/07d7aa3ea3d01ac4454d59da1826a97a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [293, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||984dc758c47fd42261417a4e66c02677",
+        "fields": {
+            "value": "{\"name\": \"productos/Torulas-Boen.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [594, 594]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||9da7b5462ae36740c2fb30d8f7374676",
+        "fields": {
+            "value": "{\"name\": \"cache/4c/71/4c716180b1e2594cfa62fe46dcc2b24f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||9df76aebfb3feb721ead8f82b2868b3d",
+        "fields": {
+            "value": "{\"name\": \"cache/c5/b0/c5b0b27262154089eb6b33874853970e.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||a2acb533b5308ffe72c98fd5f92a8129",
+        "fields": {
+            "value": "{\"name\": \"cache/d4/c1/d4c113a4b958405df02e0102576d65c3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||ab52469e0b7299f63055186345bb581e",
+        "fields": {
+            "value": "{\"name\": \"cache/6f/7e/6f7e5b78c4cad7d82fea3704558f6f49.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||bc1f5b3589328880905bbba1f602a30b",
+        "fields": {
+            "value": "{\"name\": \"cache/d2/ce/d2ce0e1913abb8df001e26b7d1bc2404.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||bd7a7e7d0b3d86166bd08d9e99b0edca",
+        "fields": {
+            "value": "{\"name\": \"productos/test-rapido-para-deteccion-covid-19-marca-cellex-25-test.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||be3b6e8a1d2dc4a20d696be50b4a7040",
+        "fields": {
+            "value": "{\"name\": \"cache/2e/2e/2e2e0b5d05ca82801958036edc1b6671.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||c25beabb20346aa4ec267af9b6e003e1",
+        "fields": {
+            "value": "{\"name\": \"cache/b6/3a/b63a534b122373977547fd815ba45519.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||c2d5761103c768c7dd7b24abde81f7df",
+        "fields": {
+            "value": "{\"name\": \"cache/9a/30/9a30b5136dea6c7907b982d1a38c8054.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||c7b79c963c5033b833eca9a50d9f133d",
+        "fields": {
+            "value": "{\"name\": \"cache/a1/be/a1befa18ecfbc825b1c4c284d6a84796.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||cd27cca629b8adce63bdba19e89e0d52",
+        "fields": {
+            "value": "{\"name\": \"cache/dd/20/dd205d276e45ec90ac83318d30c00681.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||cf86db547305fb686f710ca02fc0f8e2",
+        "fields": {
+            "value": "{\"name\": \"cache/d3/fa/d3fabcdedb10db1e0b275ba2b9a36d91.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||d2f21ba4cc0582a11b7bfc67099de2db",
+        "fields": {
+            "value": "{\"name\": \"cache/ff/21/ff219bd41fe04bf3c910ed666fe8199c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 102]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||d55740eefd5629a2753e377495d91060",
+        "fields": {
+            "value": "{\"name\": \"cache/a5/b8/a5b8aea89af4d0778791adb70d34c617.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [200, 200]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||d8011bbc96e5e7cdf8f845f5b608102e",
+        "fields": {
+            "value": "{\"name\": \"cache/62/e8/62e8994d0a1fe6a5d281dd961905fcc1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||e18028a082b7243806dddd19deccda2a",
+        "fields": {
+            "value": "{\"name\": \"productos/VTM-Torula-Boen.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [600, 600]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||e267ae3d9aa059607504f9579adadca0",
+        "fields": {
+            "value": "{\"name\": \"cache/4d/d6/4dd66cdf437819daf00675802f800ab6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||e7ed2fdc074fe550fe58fffa392dbe28",
+        "fields": {
+            "value": "{\"name\": \"cache/af/23/af237e9b683cb4d6036cad442bfd3d33.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||ef560416bbf9fc4141da1b8ec5e81c79",
+        "fields": {
+            "value": "{\"name\": \"cache/38/a1/38a1369ea53d65b8060bd513cb4ab2d5.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||f56ff6936a314059fe4f0d9025e5ae91",
+        "fields": {
+            "value": "{\"name\": \"cache/f2/92/f292aa37020fc89c4a29fcfbc9ca6a97.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||f7126ad66c9e86bebfca4c521099ea4c",
+        "fields": {
+            "value": "{\"name\": \"cache/72/ca/72caa0c71cc036104bf8ef900624d26a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [150, 150]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||f8b4e01ededee39aee9edfbd7ffaf121",
+        "fields": {
+            "value": "{\"name\": \"cache/4e/4d/4e4d4bd66e8288b0b830bec353a7c352.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [175, 175]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||image||f92c927130cd39c9efb8e09f412e6b93",
+        "fields": {
+            "value": "{\"name\": \"cache/72/70/7270e108602420d7c1038c0d26fa6e00.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [100, 100]}"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||4cb988d1b3e898808c5611cfcd733813",
+        "fields": {
+            "value": "[\"83a28966969074ff1f8bb7b13d4d82e8\", \"476b0d6907597195b315e354ae53b67f\", \"5fa8d55fc28662b4e4b98b73806a439c\", \"e267ae3d9aa059607504f9579adadca0\", \"20e4d8f1b48ba092fb496dac2a700445\", \"c2d5761103c768c7dd7b24abde81f7df\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||6164f441765c6e5b4ada131d0f75a798",
+        "fields": {
+            "value": "[\"a2acb533b5308ffe72c98fd5f92a8129\", \"4bf72271d72a63943dc97ae312c2c0b6\", \"be3b6e8a1d2dc4a20d696be50b4a7040\", \"c7b79c963c5033b833eca9a50d9f133d\", \"14644d36f4a50199f31ff8d27732db2d\", \"f92c927130cd39c9efb8e09f412e6b93\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||8925611bd6d725b609b86f6c820cc4d2",
+        "fields": {
+            "value": "[\"0ca41bc64cea9968e15bd1b3fad82ee7\", \"f56ff6936a314059fe4f0d9025e5ae91\", \"68243fc1160d82f3e391f10ea20de196\", \"bc1f5b3589328880905bbba1f602a30b\", \"cd27cca629b8adce63bdba19e89e0d52\", \"f7126ad66c9e86bebfca4c521099ea4c\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||8f2aa1abf7a7f8dce7db14a6398b63c2",
+        "fields": {
+            "value": "[\"d2f21ba4cc0582a11b7bfc67099de2db\", \"906f0337ba5513aab20a31856b4305c6\", \"221b28a1c29a183978416abcd773b62f\", \"1aad7055b159f0b48fd0315d13a4c725\", \"1e941dc305a07e5ea77b88011da84d05\", \"0aea9689bc8b0a8495a7d14795fe570d\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||984dc758c47fd42261417a4e66c02677",
+        "fields": {
+            "value": "[\"9da7b5462ae36740c2fb30d8f7374676\", \"f8b4e01ededee39aee9edfbd7ffaf121\", \"d8011bbc96e5e7cdf8f845f5b608102e\", \"432534eec633968697b3946c0f9df0d7\", \"5c98abfc7a5ba022a22ca29ad88ffef6\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||bd7a7e7d0b3d86166bd08d9e99b0edca",
+        "fields": {
+            "value": "[\"ab52469e0b7299f63055186345bb581e\", \"563e7e1b458f644abbaeb8aa8a9ac5c8\", \"7edab573f2eb48541560fe0f3ef643bf\", \"ef560416bbf9fc4141da1b8ec5e81c79\", \"c25beabb20346aa4ec267af9b6e003e1\", \"0363d738725fb589a5bd073e7cd1a115\"]"
+        }
+    },
+    {
+        "model": "thumbnail.kvstore",
+        "pk": "sorl-thumbnail||thumbnails||e18028a082b7243806dddd19deccda2a",
+        "fields": {
+            "value": "[\"031caa9b6a2a6f65692eeca373249baf\", \"cf86db547305fb686f710ca02fc0f8e2\", \"e7ed2fdc074fe550fe58fffa392dbe28\", \"4ef2381ee2d42fcedeae3de6f3623bf8\", \"d55740eefd5629a2753e377495d91060\", \"6c5ebde55ac23be5686ede49a3ef9733\", \"9df76aebfb3feb721ead8f82b2868b3d\"]"
+        }
+    }
+]

@@ -58,6 +58,7 @@
                             <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'catalogo_productos' %}"> Productos</a>
                             <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'comentario' %}"> <i class="fa fa-envelope" aria-hidden="true"></i> Contáctanos</a>
                             <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'miscomentarios' %}"><i class="fa fa-inbox" aria-hidden="true"></i> Mis mensajes</a>
+                            <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'orden_creacion' %}"><i class="fa fa-shopping-cart fa-fw fa-lg" aria-hidden="true"></i> Orden de compra</a>
                             {% if user.is_staff %}
                                 <a class="nav-link btn btn-link btn-block border-bottom m-0" href="{% url 'listacomentarios' %}">Comentarios</a>
                                 <a class="nav-link btn btn-link btn-block border-bottom m-0"href="{% url 'clientes' %}">Clientes</a>
@@ -81,28 +82,29 @@
 {% endblock %}
 {% block footer %}
     <footer class="bg-light text-center text-black">
-        <div class="row">
-            <div class="col-sm-12">
-                <h5 id>Sucursales</h5>
-                <p>
-                    <li>Toma de muestra:  Los Andes:Calle Las Heras 55</li>
-                </p>
-                <p>
-                    <li>Venta de productos:  San Felipe:Av. Miraflores 1235</li>
-                </p>
-            </div>
-            <div class="col-sm-12 text-center" style="background-color: #6610f2;">
-                <div class= "mb-1">
-                    <a href="https://es-la.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://cl.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 id>Sucursales</h5>
+                    <p>
+                        <li>Toma de muestra:  Los Andes:Calle Las Heras 55</li>
+                    </p>
+                    <p>
+                        <li>Venta de productos:  San Felipe:Av. Miraflores 1235</li>
+                    </p>
                 </div>
-            </div>
-            <div class="col-sm-12">
-                <!-- Copyright -->
-                <div class="text-white text-center p-3" style="background-color: #6610f2;">
-                    Laboratorios LGC© 2022 Copyright: Liliana Garmendia
+                <div class="col-sm-12 text-center" style="background-color: #6610f2;">
+                    <div class= "mb-1">
+                        <a href="https://es-la.facebook.com/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://cl.linkedin.com/"> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <!-- Copyright -->
+                    <div class="text-white text-center p-3" style="background-color: #6610f2;">
+                        Laboratorios LGC© 2022 Copyright: Liliana Garmendia
+                    </div>
                 </div>
             </div>
     </footer>

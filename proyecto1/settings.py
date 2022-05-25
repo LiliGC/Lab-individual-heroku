@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'sorl.thumbnail'
 ]
 
+CARRO_SESSION_ID = 'carro'
+
 X_FRAME_OPTIONS='SAMEORIGIN'
 
 MIDDLEWARE = [
@@ -73,6 +75,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'labtienda.context_processors.carro',
             ],
         },
     },

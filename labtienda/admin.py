@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Client, Professional, Comentario, Marca, Categoria, Producto
+from .models import Client, Professional, Comentario, Marca, Categoria, Producto, Orden, OrdenItem
+
 
 # Register your models here.
 
@@ -24,3 +25,16 @@ class ProductoAdmin(admin.ModelAdmin):
 
 admin.site.register(Producto, ProductoAdmin)
 
+class OrdenItemInline(admin.TabularInline):
+    model = OrdenItem
+    raw_id_fields = ['producto']
+
+
+class OrdenAdmin(admin.ModelAdmin):
+    list_display = ['id', 'nombre', 'apellido','direccion','ciudad', 'pagada', 'creada',
+                    'actualizada']
+    list_filter = ['pagada', 'creada', 'actualizada']
+    inlines = [OrdenItemInline]
+
+
+admin.site.register(Orden, OrdenAdmin)
