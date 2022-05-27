@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 {% load static %}
+{% load humanize %}
 <head>
     <meta charset="utf-8">
     {% block title %}<title></title>{% endblock %}
@@ -39,6 +40,19 @@
             <div class="row">
                 <div class="col-sm-12">
                     <img src="https://cdn.icon-icons.com/icons2/809/PNG/512/laboratory_chemistry_science_microscope_icon-icons.com_66115.png" width="60" height="60" alt="logo"><h1>Laboratorios LGC</h1>
+                    <div class="cart text-right">
+                        {% with items_totales=carro|length %}
+                            {% if carro|length > 0 %}
+                                Tu carro:<i class="fa fa-shopping-cart fa-fw fa-lg" aria-hidden="true"></i>
+                                <a class= "btn btn-outline-light btn-floating m-1" href="{% url "carro_detalle" %}">
+                                    {{ items_totales }} item{{ items_totales|pluralize }},
+                                    ${{ carro.get_precio_total }}
+                                </a>
+                            {% else %}
+                                Tu carro esta vacio
+                            {% endif %}
+                        {% endwith %}
+                    </div>
                 </div>
             </div>
             <div class="pos-f-t">

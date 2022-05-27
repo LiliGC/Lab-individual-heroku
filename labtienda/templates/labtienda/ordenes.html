@@ -1,0 +1,55 @@
+{% extends "./base.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12 p-3 border" style="background-color: #ebebfa">
+
+            <h3>Ordenes</h3>
+        
+                <div class="table-responsive align-middle"> 
+        
+                    <table id="clientes" class="table table-striped display nowrap" style="width:100%"> 
+        
+                        <thead> 
+        
+                            <tr> 
+        
+                                <th scope="col">Numero orden</th> 
+                                <th scope="col">Nombre</th> 
+                                <th scope="col">Apellido</th> 
+                                <th scope="col">Correo electrónico</th> 
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Productos</th>
+                            </tr> 
+        
+                        </thead> 
+        
+                        <tbody> 
+        
+                            {% for o in ordenes %} 
+        
+                            <tr> 
+        
+                                <td>{{ o.id }}</td> 
+        
+                                <td>{{ o.nombre }}</td> 
+        
+                                <td>{{ o.apellido}}</td> 
+        
+                                <td>{{ o.email }}</td> 
+
+                                <td>{{ o.creada }}</td> 
+                            {% endfor %}
+                            {% for p in productos %}
+                                <td>{{ p.precio }}</td> 
+                            {% endfor %}
+                            </tr> 
+                        </tbody>   
+                    </table> 
+                </div> 
+        </div> 
+        
+    </div> 
+        
+{% endblock %} 

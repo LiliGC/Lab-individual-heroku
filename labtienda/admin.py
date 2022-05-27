@@ -29,6 +29,7 @@ class OrdenItemInline(admin.TabularInline):
     model = OrdenItem
     raw_id_fields = ['producto']
 
+admin.site.register(OrdenItem)
 
 class OrdenAdmin(admin.ModelAdmin):
     list_display = ['id', 'nombre', 'apellido','direccion','ciudad', 'pagada', 'creada',

@@ -10,7 +10,7 @@
             <span class="badge bg-light text-dark">
                 {% with items_totales=carro|length %}
                     {% if carro|length > 0 %}
-                        <a href="{% url "carro_detalle" %}" style="color:  #000000"><h3>{{ item_totales }}Total{{ item_totales|pluralize }}, ${{ carro.get_precio_total }}<h3></a>
+                        <a href="{% url "carro_detalle" %}">{{ items_totales }} Item{{ items_totales|pluralize }}, Total ${{ carro.get_precio_total }}</a>
                         {% else %}
                             <h3>Tu carro está vacío</h3>
                     {% endif %}
@@ -64,7 +64,7 @@
             </table>
         </div>
         <p class="text-right">
-            <a href="{% url "catalogo_productos" %}" class="btn btn-default">Continuar Comprando</a>
+            <a href="{% url "catalogo_productos" %}" class="btn btn-secondary">Continuar Comprando</a>
             <a href="{% url "orden_creacion" %}" class="btn btn-primary">Checkout</a>
         </p>
     </div>

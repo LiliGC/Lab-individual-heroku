@@ -1,4 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
+
+from labtienda.admin import OrdenItemInline
 from .models import Client, Professional, Comentario, Producto, OrdenItem, Orden
 from .forms import ClienteForm,ProfessionalForm, ComentarioForm, ProductoForm, OrdenCreateForm
 from .forms import NewUserForm
@@ -393,8 +395,12 @@ def orden_creacion(request):
                     cantidad=item['cantidad']
                 )
             carro.limpiar()
-        return render(request, 'labtienda/checkout.html', {'orden': orden})
+            return render(request, 'labtienda/checkout.html', {'orden': orden})
     else:
-        form = OrdenCreateForm()
-    return render(request, 'labtienda/orden_creacion.html', {'form': form})
+        context = {
+        'form': form,
+        'carro': carro
+    }
+    return render(request, 'labtienda/orden_creacion.html', context)
+
 
