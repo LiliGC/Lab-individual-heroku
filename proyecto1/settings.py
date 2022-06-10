@@ -15,6 +15,7 @@ import os
 import dj_database_url
 from decouple import config
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,7 +29,7 @@ SECRET_KEY = 'django-insecure-^vx%xbf0x8**a)apke-h0ti)a=@ug3@iah))!2(_s5&fw+vceh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://labtienda.herokuapp.com/']
 
 MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
 
@@ -94,11 +95,23 @@ WSGI_APPLICATION = 'proyecto1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+
 DATABASES = {
-'default': dj_database_url.config(
-    default=config('DATABASE_URL')
-)
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Lab_LGC',
+        'USER': 'root',
+        'PASSWORD': 'Ri/ri87@15Cl14',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+
+    }
 }
+
+
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -135,7 +148,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATIC_ROOT = os.path.join(BASE_DIR, "live-static-files", "static-root")
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
@@ -144,7 +159,10 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 MEDIA_URL='/media/'
 
-MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT=os.path.join(BASE_DIR, "live-static-files", "media-root")
+
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
