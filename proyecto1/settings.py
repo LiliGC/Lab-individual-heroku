@@ -160,7 +160,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 MEDIA_URL='/media/'
 
-MEDIA_ROOT=os.path.join(BASE_DIR, "live-static-files", "media-root")
+MEDIA_ROOT=os.path.join(BASE_DIR, "media-root")
 
 CSRF_TRUSTED_ORIGINS = ["https://labtienda.herokuapp.com"]
 
