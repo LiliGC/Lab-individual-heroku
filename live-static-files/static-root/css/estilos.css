@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.asteriskField {
+    display: none;
+}
+
+.productos {
+    background-color: #ebf8fa;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.producto .contenedor_producto {
+    background-color: rgba(255, 255, 255, 0.94);
+    width: 85%;
+    margin: auto;
+}
+
+.producto img {
+    object-fit: cover;
+}
+
+.producto .detalle {
+    padding: 5px;
+}
